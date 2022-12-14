@@ -1,0 +1,47 @@
+.navbar-brand {
+  margin-right: 3rem !important; 
+  font-size: 1.25rem !important;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navbar-expand-xl .navbar-nav .nav-link {
+  padding-right: 1.5rem !important;
+  padding-left: 0.5rem;
+  color: #dfd0d0 !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-expand-xl .navbar-nav .nav-link:hover {
+  color: #FFFFFF !important;
+}
+
+.navbar-toggler {
+  border: unset !important;
+  padding: 0.5rem 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: unset !important;
+}
+
+.offcanvas-header .btn-close {
+  background: transparent url('../../../public/images/close-icon.png') center/1em auto no-repeat !important;
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+  opacity: revert;
+  padding: revert;
+  margin-top: revert;
+  margin-right: revert;
+}
+
+.offcanvas-header .btn-close:focus {
+  box-shadow: unset !important;
+}
+
+@media (max-width: 1200px) {
+  .offcanvas-body {
+    background-color: #120023 !important;
+  }
+}

@@ -1,0 +1,9 @@
+#code-of-conduct {
+  margin: 120px auto !important;
+}
+
+@media (max-width: 600px) {
+  #code-of-conduct {
+    margin: 80px auto !important;
+  }
+}

@@ -1,0 +1,57 @@
+.banner-first-section {
+  padding: 80px 0 100px 0;
+}
+
+.banner-bottom-section {
+  display: grid; 
+  grid-template-columns: repeat(4,minmax(150px,1fr));
+}
+
+.banner-bottom-section-item {
+  margin: 30px 0 20px 0;
+}
+
+.banner-bottom-section-value {
+  background-image: url('../../../public/images/counts-bg.png');
+  border-radius: 100%;
+}
+
+.banner-images-section {
+  display: grid;
+  font-size: 0;
+  /* margin: -3% 0 0 -3%; */
+  grid-template-columns: 22% 23% auto 15%;
+}
+
+.banner-images-section div:not(:last-of-type) {
+  display: inline-block;
+  margin: 0 5% 0 0;
+}
+
+@media (max-width: 600px) {
+  .banner-first-section {
+    padding: 80px 0 50px 0;
+  }
+
+  .banner-images-section {
+    padding-left: 15px;
+    margin: 50px auto;
+    grid-template-columns: 50% 50%;
+  }
+
+  .banner-images-item-1 {
+    border-radius: 10px;
+  }
+
+  .banner-images-item-2 {
+    margin-top: 2rem !important;
+  }
+
+  .banner-images-item-2 {
+    width: 75% !important;
+  }
+
+  .banner-bottom-section {
+    grid-template-columns: repeat(2,minmax(150px,1fr));
+  }
+}

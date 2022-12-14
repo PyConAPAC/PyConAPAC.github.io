@@ -1,0 +1,13 @@
+.about-container {
+  margin: 200px auto !important;
+}
+
+@media (max-width: 600px) {
+  .about-container {
+    margin: 80px auto !important;
+  }
+
+  .about-container div:first-child {
+    text-align: center;
+  }
+}
