@@ -13,7 +13,7 @@ export default function Events() {
       description: "by PyCon JP",
       info: [
         "2023 October 27-29",
-        "Tokyo, Japan"
+        "TOC Ariake Convention Hall, Tokyo, Japan"
       ]
     },
 /*    {
