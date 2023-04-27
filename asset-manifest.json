@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/pycon-apac-org-website/static/css/main.f6420f92.css",
-    "main.js": "/pycon-apac-org-website/static/js/main.11aee89d.js",
+    "main.js": "/pycon-apac-org-website/static/js/main.276e360b.js",
     "static/js/787.fab559da.chunk.js": "/pycon-apac-org-website/static/js/787.fab559da.chunk.js",
     "static/media/bg-img.jpeg": "/pycon-apac-org-website/static/media/bg-img.7bcc255e96ff0abe0576.jpeg",
     "static/media/counts-bg.png": "/pycon-apac-org-website/static/media/counts-bg.06960b9eeba90b213241.png",
     "index.html": "/pycon-apac-org-website/index.html",
     "main.f6420f92.css.map": "/pycon-apac-org-website/static/css/main.f6420f92.css.map",
-    "main.11aee89d.js.map": "/pycon-apac-org-website/static/js/main.11aee89d.js.map",
+    "main.276e360b.js.map": "/pycon-apac-org-website/static/js/main.276e360b.js.map",
     "787.fab559da.chunk.js.map": "/pycon-apac-org-website/static/js/787.fab559da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f6420f92.css",
-    "static/js/main.11aee89d.js"
+    "static/js/main.276e360b.js"
   ]
 }
