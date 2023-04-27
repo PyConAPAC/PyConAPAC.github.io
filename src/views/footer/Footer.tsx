@@ -97,7 +97,7 @@ export default function Footer() {
             <div className="footer-divider"></div>
         </div>
         <div className="small-text text-white footer-credits">
-            <div>Made with</div>
+            <div>Website made with</div>
             <div className="hearbeat"> ❤️ </div> 
             <div>
                 <a href="https://codemickeycode.com/">codemickeycode</a>, <a href="https://www.heyyeoh.com/">Heyyeoh</a> & <a>dnezle</a>.
