@@ -7,13 +7,13 @@ export default function Events() {
     {
       key: 1,
       img: 'images/event-slide-1.png',
-      title: 'Pycon APAC 2022',
+      title: 'PyCon APAC 2023',
       badgeText: 'UPCOMING',
       badgeType: 'danger',
-      description: "The conference is held on multiple virtual platforms. All speeches are live streamed on YouTube while attendees are encouraged to join our Gather Town and Discord space. The Gather Town platform allows attendees to participate in our special events (Swag giveaway!) and meet with sponsors, speakers, and other Pythonistas!",
+      description: "by PyCon JP",
       info: [
-        "2022 September 3-4",
-        "Online on YouTube, Gather Town and Discord"
+        "2023 October 27-29",
+        "Tokyo, Japan"
       ]
     },
 /*    {

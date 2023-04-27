@@ -71,7 +71,7 @@ export default function Footer() {
                                     <img src="images/icons8-linkedin_circled.png" alt="Linkedin" />
                                 </a>*/}
                             </div>
-                            <div className="medium-text-bold text-white">
+{/*                            <div className="medium-text-bold text-white">
                                 Stay Connected
                             </div>
                             <div className="small-text text-white" style={{opacity: '60%'}}>
@@ -82,7 +82,7 @@ export default function Footer() {
                             <div className="form-input-group">
                                 <input className="form-input" type="text" placeholder="Enter email here" />
                                 <button className="button-primary sub-btn">Subscribe</button>
-                            </div>
+                            </div>*/}
                         </div>
                     </div>
                 </div>
