@@ -12,11 +12,11 @@ export default function Preheader() {
             <div>We are a group of PyCon organizers in APAC.</div>
             <div>Every year, we hold a regional counterpart of PyCon in Asia-Pacific and we call it PyCon APAC.</div>
           </div>
-          <div className="d-flex justify-content-center">
+{/*          <div className="d-flex justify-content-center">
             <button className="button-primary-lg">Learn More</button>
             <div>&nbsp;&nbsp;&nbsp;</div>
             <button className="button-secondary-lg">How to Join</button>
-          </div>
+          </div>*/}
           <div className="banner-images-section">
             <div className="banner-images-item">
               <ScrollReveal 

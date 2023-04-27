@@ -10,7 +10,7 @@ export default function Events() {
       title: 'PyCon APAC 2023',
       badgeText: 'UPCOMING',
       badgeType: 'danger',
-      description: "by PyCon JP",
+      description: "PyCon APAC 2023 will be hosted by PyCon JP",
       info: [
         "2023 October 27-29",
         "TOC Ariake Convention Hall, Tokyo, Japan"
@@ -119,7 +119,9 @@ export default function Events() {
                     ))}
                     <br className="mobile-off" />
                     <br className="mobile-off" />
-                    <button className="button-primary">Register Now</button>
+                    <a href="https://2023-apac.pycon.jp">
+                      <button className="button-primary">Learn More</button>
+                    </a>
                   </div>
                 </div>
               </div>
