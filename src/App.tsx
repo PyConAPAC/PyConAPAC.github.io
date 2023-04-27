@@ -18,9 +18,9 @@ function App() {
         <section id="about">
           <About />
         </section>
-{/*        <section id="what-we-do">
+        <section id="what-we-do">
           <WhatWeDo />
-        </section>*/}
+        </section>
       </div>
       <section id="events">
         <Events />

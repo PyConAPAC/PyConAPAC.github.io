@@ -4,7 +4,7 @@ import ScrollReveal from '../../components/scrollReveal/ScrollReveal';
 export default function WhatWeDo() {
   return (
     <>
-      <div className="row what-we-do-container">
+{/*      <div className="row what-we-do-container">
         <div className="col-lg-6 col-md-6 col-xs-12" style={{paddingLeft: 'unset'}}>
           <div className="what-we-do-images mobile-off">
             <ScrollReveal 
@@ -193,7 +193,7 @@ export default function WhatWeDo() {
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
     </>
   )
 }
