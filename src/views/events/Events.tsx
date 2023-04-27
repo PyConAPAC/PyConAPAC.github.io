@@ -10,7 +10,7 @@ export default function Events() {
       title: 'PyCon APAC 2023',
       badgeText: 'UPCOMING',
       badgeType: 'danger',
-      description: "PyCon APAC 2023 will be hosted by PyCon JP",
+      description: "PyCon APAC 2023 will be hosted by PyCon JP. CfP is now open!",
       info: [
         "2023 October 27-29",
         "TOC Ariake Convention Hall, Tokyo, Japan"
