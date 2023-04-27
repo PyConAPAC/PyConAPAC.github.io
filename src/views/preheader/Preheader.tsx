@@ -112,7 +112,7 @@ export default function Preheader() {
             </div>
           </div>
         </div>
-        <div className="container banner-bottom-section">
+{/*        <div className="container banner-bottom-section">
           <ScrollReveal 
             delay={0} 
             interval={200} 
@@ -165,7 +165,7 @@ export default function Preheader() {
               </div>
             </div>
           </ScrollReveal>
-        </div>
+        </div>*/}
       </div>
     </>
   )
