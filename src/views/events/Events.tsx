@@ -81,8 +81,7 @@ export default function Events() {
                 <br />
               </div>
               <div className="medium-text text-white" style={{opacity: '60%'}}>
-                Vestibulum id ligula porta felis euismod semper. 
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+                Upcoming events in APAC.
               </div>
             </div>
           </div>
