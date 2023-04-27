@@ -101,7 +101,7 @@ export default function Footer() {
             <div className="hearbeat"> ❤️ </div> 
             <div>
                 <a href="https://codemickeycode.com/">codemickeycode</a>, <a href="https://www.heyyeoh.com/">Heyyeoh</a> & <a>dnezle</a>.
-                PyCon APAC Logo by <a>Park Hyunwoo</a>
+                </br>PyCon APAC Logo by <a>Park Hyunwoo</a>
             </div>
         </div>
     </>
