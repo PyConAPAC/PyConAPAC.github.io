@@ -101,6 +101,7 @@ export default function Footer() {
             <div className="hearbeat"> ❤️ </div> 
             <div>
                 <a href="https://codemickeycode.com/">codemickeycode</a>, <a href="https://www.heyyeoh.com/">Heyyeoh</a> & <a>dnezle</a>.
+            </div>
         </div>
         <div className="small-text text-white footer-credits">
             <div>
