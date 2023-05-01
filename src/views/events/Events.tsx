@@ -79,9 +79,24 @@ export default function Events() {
               <div className="section-heading">
                 <h1 className="text-white">Events</h1>
                 <br />
+                <h4 className="text-white">Regional PyCon 2023 in APAC Schedule</h4>
+                <br />
               </div>
               <div className="medium-text text-white" style={{opacity: '60%'}}>
-                Upcoming events in APAC.
+                <ul>
+                  <li>Feb 25-26: <strong>PyCon PH</strong> Manila, Philippines</li>
+                  <li>Aug 11-13: <strong>PyCon KR</strong> Seoul, Korea</li>
+                  <li>Aug 18-22: <strong>PyCon AU</strong> Adelaide, Australia</li>
+                  <li>Aug 17-19 (Tentative): <strong>PyCon SG</strong> Singapore</li>
+                  <li>Aug 26: <strong>PyCon MY</strong> Malaysia</li>
+                  <li>Sept 2-3: <strong>PyCon TW</strong> Taipei, Taiwan</li>
+                  <li>Sept 15-17: <strong>Kiwi PyCon</strong> Invercargill, New Zealand</li>
+                  <li>Sept 29-Oct 2: <strong>PyCon India</strong> Hyderabad, India</li>
+                  <li>Oct 27-29: <strong>PyCon APAC (by PyCon JP)</strong> Tokyo, Japan</li>
+                  <li>Nov 10-11: <strong>PyCon HK</strong> Hong Kong</li>
+                  <li>Nov 11-12: <strong>PyCon ID</strong> Indonesia</li>
+                  <li>Dec 15-16: <strong>PyCon TH</strong> Thailand</li>
+                </ul>
               </div>
             </div>
           </div>
