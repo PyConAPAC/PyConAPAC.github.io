@@ -4,7 +4,7 @@ import ScrollReveal from '../../components/scrollReveal/ScrollReveal';
 export default function WhatWeDo() {
   return (
     <>
-{/*      <div className="row what-we-do-container">
+      <div className="row what-we-do-container">
         <div className="col-lg-6 col-md-6 col-xs-12" style={{paddingLeft: 'unset'}}>
           <div className="what-we-do-images mobile-off">
             <ScrollReveal 
@@ -59,11 +59,11 @@ export default function WhatWeDo() {
               <br />
             </div>
             <div className="medium-text text-white" style={{opacity:'60%'}}>
-              Vestibulum id ligula porta felis euismod semper. 
+{/*              Vestibulum id ligula porta felis euismod semper.
               Praesent commodo cursus magna, vel scelerisque nisl consectetur et. 
               Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, 
               vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. 
-              Vestibulum id ligula porta felis euismod semper.
+              Vestibulum id ligula porta felis euismod semper.*/}
             </div>
             <div>
               <ScrollReveal 
@@ -90,8 +90,8 @@ export default function WhatWeDo() {
                 Workshops & Seminars
               </div>
               <div className="small-text text-white" style={{opacity: '60%'}}>
-                Etiam porta sem malesuada magna mollis euismod ulla vitae elit. 
-                Duis mollis, est non commodo luctus.
+{/*                Etiam porta sem malesuada magna mollis euismod ulla vitae elit.
+                Duis mollis, est non commodo luctus.*/}
               </div>
             </div>
             <div>
@@ -119,8 +119,8 @@ export default function WhatWeDo() {
                 Community Events
               </div>
               <div className="small-text text-white" style={{opacity: '60%'}}>
-                Etiam porta sem malesuada magna mollis euismod ulla vitae elit. 
-                Duis mollis, est non commodo luctus.
+{/*                Etiam porta sem malesuada magna mollis euismod ulla vitae elit.
+                Duis mollis, est non commodo luctus.*/}
               </div>
             </div>
             <div>
@@ -153,8 +153,8 @@ export default function WhatWeDo() {
                 Virtual Events
               </div>
               <div className="small-text text-white" style={{opacity: '60%'}}>
-                Etiam porta sem malesuada magna mollis euismod ulla vitae elit. 
-                Duis mollis, est non commodo luctus.
+{/*                Etiam porta sem malesuada magna mollis euismod ulla vitae elit.
+                Duis mollis, est non commodo luctus.*/}
               </div>
             </div>
             <div>
@@ -187,13 +187,13 @@ export default function WhatWeDo() {
                 Gatherings
               </div>
               <div className="small-text text-white" style={{opacity: '60%'}}>
-                Etiam porta sem malesuada magna mollis euismod ulla vitae elit. 
-                Duis mollis, est non commodo luctus.
+{/*                Etiam porta sem malesuada magna mollis euismod ulla vitae elit.
+                Duis mollis, est non commodo luctus.*/}
               </div>
             </div>
           </div>
         </div>
-      </div>*/}
+      </div>
     </>
   )
 }
