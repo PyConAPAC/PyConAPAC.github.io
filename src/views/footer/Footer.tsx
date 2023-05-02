@@ -89,7 +89,7 @@ export default function Footer() {
                 <div className="col-lg-6 col-xs-12">
                     <div className="left-text-content">
                         <div className="small-text text-white footer-credit">
-                            © 2022 Pycon APAC
+                            © 2022 PyCon APAC
                         </div>
                     </div>
                 </div>
