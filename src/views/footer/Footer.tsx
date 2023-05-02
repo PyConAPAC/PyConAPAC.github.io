@@ -24,9 +24,9 @@ export default function Footer() {
                             <img className="country-item mobile-off" src="images/country-flag-7.png" title="Hong Kong" />
                             <img className="country-item mobile-off" src="images/country-flag-8.png" title="Vietnam" />
                             <img className="country-item mobile-off" src="images/country-flag-9.png" title="Japan" />
-                            <img className="country-item mobile-off" src="images/country-flag-10.png" title="Taiwan" />
-                            <img className="country-item mobile-off" src="images/country-flag-11.png" title="India" />
-                            <img className="country-item mobile-off" src="images/country-flag-12.png" title="Bangladesh" />
+                            <img className="country-item mobile-off" src="images/country-flag-12.png" title="Taiwan" />
+                            <img className="country-item mobile-off" src="images/country-flag-10.png" title="India" />
+                            <img className="country-item mobile-off" src="images/country-flag-11.png" title="Bangladesh" />
                         </div>
                         <div className="d-flex footer-nav small-text">
                             <div className="footer-nav-item scroll-to-section">
