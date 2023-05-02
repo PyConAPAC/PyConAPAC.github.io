@@ -11,7 +11,7 @@ export default function Footer() {
                         <img className="footer-logo" src="images/logo.png" alt="Python APAC" />
                         <div className="small-text text-white" style={{opacity: '60%'}}>
                             We are Pycon APAC Organizers from Singapore, Malaysia, Indonesia, Philippines,
-                            Thailand, South Korea, Hong Kong, Vietnam, Japan, Taiwan, India and Bangladesh.
+                            Thailand, South Korea, Hong Kong, Vietnam, Japan, India, Bangladesh and Taiwan.
                         </div>
                         <br />
                         <div className="d-flex country-items">
@@ -24,9 +24,9 @@ export default function Footer() {
                             <img className="country-item mobile-off" src="images/country-flag-7.png" title="Hong Kong" />
                             <img className="country-item mobile-off" src="images/country-flag-8.png" title="Vietnam" />
                             <img className="country-item mobile-off" src="images/country-flag-9.png" title="Japan" />
-                            <img className="country-item mobile-off" src="images/country-flag-12.png" title="Taiwan" />
                             <img className="country-item mobile-off" src="images/country-flag-10.png" title="India" />
                             <img className="country-item mobile-off" src="images/country-flag-11.png" title="Bangladesh" />
+                            <img className="country-item mobile-off" src="images/country-flag-12.png" title="Taiwan" />
                         </div>
                         <div className="d-flex footer-nav small-text">
                             <div className="footer-nav-item scroll-to-section">
