@@ -41,6 +41,6 @@ More info: https://www.freecodecamp.org/news/how-to-make-your-first-pull-request
 How to Test your Code Locally
 ###
 1. Make code changes
-2. 'npm run start' - to check your changes locally
+2. `npm run start` - to check your changes locally
 
 
