@@ -6,7 +6,7 @@ export default function WhatWeDo() {
     <>
       <div className="row what-we-do-container">
         <div className="col-lg-6 col-md-6 col-xs-12" style={{paddingLeft: 'unset'}}>
-          <div className="what-we-do-images mobile-off">
+          <div className="what-we-do-images">
             <ScrollReveal 
                 delay={0} 
                 interval={300} 
