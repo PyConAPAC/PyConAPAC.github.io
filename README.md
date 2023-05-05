@@ -28,6 +28,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run deploy`
 
+Deploys the build
 
 
 
