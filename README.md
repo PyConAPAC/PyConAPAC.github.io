@@ -1,6 +1,6 @@
 PyCon APAC Organizers Website
 ==================
-PyCon APAC Organizers website - is a platform where folks can conveniently access information about the Regional PyCons in APAC, all on a single page. This is a collaboration project between that some awesome folks from the APAC community. 
+PyCon APAC Organizers Website - is a platform where folks can conveniently access information about the Regional PyCons in APAC, all on a single page. This is a collaboration project between that some awesome folks from the APAC community. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
