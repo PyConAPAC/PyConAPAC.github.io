@@ -9,6 +9,12 @@ Available Scripts
 
 In the project directory, you can run:
 
+### `npm install`
+Installs the dependencies
+Run this if you just cloned this repo and it's your first time to work on it.
+
+When you're inside a project directory that contains a `package.json` file, running npm install will install all the dependencies listed in that file. These dependencies are typically other Node.js packages that your project needs to run properly. The installed packages will be placed in a folder named `node_modules`.
+
 ### `npm run start`
 
 Runs the app in the development mode.\
