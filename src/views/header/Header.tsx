@@ -1,4 +1,4 @@
-import './header.css';
+import './style.css';
 
 import { Container, Nav, Navbar, Offcanvas } from "react-bootstrap";
 

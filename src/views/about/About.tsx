@@ -1,4 +1,4 @@
-import './about.css';
+import './style.css';
 import ScrollReveal from '../../components/scrollReveal/ScrollReveal';
 
 export default function About() {
