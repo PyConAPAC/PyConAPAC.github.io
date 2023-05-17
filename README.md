@@ -46,11 +46,13 @@ Pull requests are welcome! :)
 
 How to Create/submit a Pull Request
 ###
+
 More info: https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/
 
 
 How to Test your Code Locally
 ###
+
 1. Make code changes
 2. `npm run start` - to check your changes locally
 
