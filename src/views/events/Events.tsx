@@ -10,7 +10,7 @@ export default function Events() {
       title: 'PyCon APAC 2023',
       badgeText: 'UPCOMING',
       badgeType: 'danger',
-      description: "PyCon APAC 2023 will be hosted by PyCon JP. CfP is now open!",
+      description: "PyCon APAC 2023 will be hosted by PyCon JP.",
       info: [
         "2023 October 27-29",
         "TOC Ariake Convention Hall, Tokyo, Japan"
@@ -87,7 +87,6 @@ export default function Events() {
                   <li>Feb 25-26: <strong>PyCon PH</strong> Manila, Philippines <a href="https://ph.pycon.org">🔗</a></li>
                   <li>Aug 11-13: <strong>PyCon KR</strong> Seoul, Korea <a href="https://2023.pycon.kr">🔗</a></li>
                   <li>Aug 18-22: <strong>PyCon AU</strong> Adelaide, Australia <a href="http://au.pycon.org">🔗</a></li>
-                  <li>Aug 17-19 (Tentative): <strong>PyCon SG</strong> Singapore</li>
                   <li>Aug 26: <strong>PyCon MY</strong> Malaysia <a href="https://pycon.my">🔗</a></li>
                   <li>Sept 2-3: <strong>PyCon TW</strong> Taipei, Taiwan <a href="https://tw.pycon.org">🔗</a></li>
                   <li>Sept 15-17: <strong>Kiwi PyCon</strong> Invercargill, New Zealand <a href="https://kiwipycon.nz">🔗</a></li>
