@@ -93,7 +93,7 @@ export default function Events() {
                   <li>Sept 29-Oct 2: <strong>PyCon India</strong> Hyderabad, India <a href="https://in.pycon.org/2023/">🔗</a></li>
                   <li>Oct 27-29: <strong>PyCon APAC (by PyCon JP)</strong> Tokyo, Japan  <a href="https://2023-apac.pycon.jp">🔗</a></li>
                   <li>Nov 10-11: <strong>PyCon HK</strong> Hong Kong <a href="https://pycon.hk">🔗</a></li>
-                  <li>Nov 11-12: <strong>PyCon ID</strong> Indonesia</li>
+                  <li>Nov 18-19: <strong>PyCon ID</strong> Indonesia <a href="https://pycon.id">🔗</a></li>
                   <li>Dec 15-16: <strong>PyCon TH </strong> Thailand <a href="https://th.pycon.org">🔗</a></li>
                 </ul>
               </div>
