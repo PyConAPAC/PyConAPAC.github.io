@@ -84,7 +84,7 @@ export default function Events() {
               </div>
               <div className="medium-text text-white" style={{opacity: '60%'}}>
                 <ul>
-                  <li>Feb 25-26: <strong>PyCon PH</strong> Manila, Philippines <a href="https://ph.pycon.org">🔗</a></li>
+                  <li>Feb 25-26: <strong>PyCon PH</strong> Manila, Philippines <a href="https://pycon-2023.python.ph">🔗</a></li>
                   <li>Aug 11-13: <strong>PyCon KR</strong> Seoul, Korea <a href="https://2023.pycon.kr">🔗</a></li>
                   <li>Aug 18-22: <strong>PyCon AU</strong> Adelaide, Australia <a href="http://au.pycon.org">🔗</a></li>
                   <li>Aug 26: <strong>PyCon MY</strong> Malaysia <a href="https://pycon.my">🔗</a></li>
@@ -93,8 +93,24 @@ export default function Events() {
                   <li>Sept 29-Oct 2: <strong>PyCon India</strong> Hyderabad, India <a href="https://in.pycon.org/2023/">🔗</a></li>
                   <li>Oct 27-29: <strong>PyCon APAC (by PyCon JP)</strong> Tokyo, Japan  <a href="https://2023-apac.pycon.jp">🔗</a></li>
                   <li>Nov 10-11: <strong>PyCon HK</strong> Hong Kong <a href="https://pycon.hk">🔗</a></li>
-                  <li>Nov 11-12: <strong>PyCon ID</strong> Indonesia</li>
+                  <li>Nov 18-19: <strong>PyCon ID</strong> Indonesia <a href="https://pycon.id">🔗</a></li>
                   <li>Dec 15-16: <strong>PyCon TH </strong> Thailand <a href="https://th.pycon.org">🔗</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-6 col-xs-12">
+            <div className="left-text-content">
+              <div className="section-heading">
+                <br />
+                <h4 className="text-white">Regional PyCon 2024 in APAC Schedule</h4>
+                <br />
+              </div>
+              <div className="medium-text text-white" style={{opacity: '60%'}}>
+                <ul>
+                  <li>Feb 23-24: <strong>PyCon PH</strong> Manila, Philippines <a href="https://ph.pycon.org">🔗</a></li>
                 </ul>
               </div>
             </div>
