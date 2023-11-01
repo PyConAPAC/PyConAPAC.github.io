@@ -111,6 +111,7 @@ export default function Events() {
               <div className="medium-text text-white" style={{opacity: '60%'}}>
                 <ul>
                   <li>Feb 23-24 (tentative): <strong>PyCon PH</strong> Manila, Philippines <a href="https://ph.pycon.org">🔗</a></li>
+                  <li>Oct 25-27: <strong>PyCon APAC</strong> Yogyakarta, Indonesia <a href="https://pycon.id">🔗</a></li>
                 </ul>
               </div>
             </div>
