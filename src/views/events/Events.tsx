@@ -6,7 +6,7 @@ export default function Events() {
   const slides = [
     {
       key: 1,
-      img: 'event-slide-1.png',
+      img: 'images/event-slide-1.png',
       title: 'PyCon APAC 2024',
       badgeText: 'UPCOMING',
       badgeType: 'danger',
