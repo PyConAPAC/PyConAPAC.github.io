@@ -6,14 +6,14 @@ export default function Events() {
   const slides = [
     {
       key: 1,
-      img: 'images/event-slide-1.png',
-      title: 'PyCon APAC 2023',
+      img: 'event-slide-1-apac2024.png',
+      title: 'PyCon APAC 2024',
       badgeText: 'UPCOMING',
       badgeType: 'danger',
-      description: "PyCon APAC 2023 will be hosted by PyCon JP.",
+      description: "PyCon APAC 2024 will be hosted by PyCon ID.",
       info: [
-        "2023 October 27-29",
-        "TOC Ariake Convention Hall, Tokyo, Japan"
+        "2024 October Oct 25-27",
+        "Yogyakarta, Indonesia"
       ]
     },
 /*    {
