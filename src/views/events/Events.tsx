@@ -86,6 +86,12 @@ export default function Events() {
         title: 'PyCon TW',
     },
     {
+        date: '20-23 Sep',
+        title: 'PyCon India',
+        location: 'Bengaluru, India',
+        link: 'https://in.pycon.org/2024'
+    },
+    {
         date: '27-29 Sep (Tentative)',
         title: 'PyCon JP',
     },
