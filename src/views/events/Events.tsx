@@ -78,11 +78,11 @@ export default function Events() {
         link: 'https://pycon-2024.python.ph',
     },
     {
-        date: '24-25 Aug (Tentative)',
+        date: '24-25 Aug',
         title: 'PyCon MY',
     },
     {
-        date: '7-8 Sep (Tentative)',
+        date: '21-22 Sep',
         title: 'PyCon TW',
     },
     {
