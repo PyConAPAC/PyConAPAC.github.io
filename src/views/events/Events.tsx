@@ -80,10 +80,12 @@ export default function Events() {
     {
         date: '24-25 Aug',
         title: 'PyCon MY',
+        link: 'https://pycon.my/'
     },
     {
         date: '21-22 Sep',
         title: 'PyCon TW',
+        link: 'https://tw.pycon.org/2024/'
     },
     {
         date: '20-23 Sep',
