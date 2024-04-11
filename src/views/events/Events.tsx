@@ -104,6 +104,12 @@ export default function Events() {
         link: 'https://pycon.id',
     },
     {
+      date: '25-27 Oct',
+      title: 'PyCon KR',
+      location: 'Suwon, South Korea',
+      link: 'https://2024.pycon.kr/',
+    },
+    {
         date: 'Near end of Year (Tentative)',
         title: 'PyCon KR',
     }
