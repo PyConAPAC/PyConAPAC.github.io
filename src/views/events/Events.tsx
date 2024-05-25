@@ -108,7 +108,14 @@ export default function Events() {
       title: 'PyCon KR',
       location: 'Suwon, South Korea',
       link: 'https://2024.pycon.kr/',
+    },
+    {
+        date: '16 Nov (Tentative)',
+        title: 'PyCon HK',
+        location: 'Hong Kong',
+        link: 'https://pycon.hk/2024/',
     }
+    
   ];
 
   const eventsNextYear: any = [];
