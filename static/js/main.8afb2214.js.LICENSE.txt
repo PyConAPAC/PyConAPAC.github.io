@@ -1,4 +1,10 @@
 /*!
+  * Bootstrap v5.2.0 (https://getbootstrap.com/)
+  * Copyright 2011-2022 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+  */
+
+/*!
   Copyright (c) 2018 Jed Watson.
   Licensed under the MIT License (MIT), see
   http://jedwatson.github.io/classnames
@@ -25,6 +31,18 @@
 	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 	THE SOFTWARE.
+*/
+
+/*! @license ScrollReveal v4.0.9
+
+	Copyright 2021 Fisssion LLC.
+
+	Licensed under the GNU General Public License 3.0 for
+	compatible open source projects and non-commercial use.
+
+	For commercial sites, themes, projects, and applications,
+	keep your source code private/proprietary by purchasing
+	a commercial license from https://scrollrevealjs.org/
 */
 
 /*! @license Tealight v0.3.6
