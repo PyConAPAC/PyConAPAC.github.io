@@ -114,7 +114,13 @@ export default function Events() {
         title: 'PyCon HK',
         location: 'Hong Kong',
         link: 'https://pycon.hk/2024/',
-    }
+    },
+    {
+        date: '22-26 Nov',
+        title: 'PyCon AU',
+        location: 'Melbourne, Australia',
+        link: 'https://2024.pycon.org.au/',
+    }    
     
   ];
 
