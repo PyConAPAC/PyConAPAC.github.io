@@ -94,7 +94,7 @@ export default function Events() {
         link: 'https://in.pycon.org/2024'
     },
     {
-        date: '27-29 Sep (Tentative)',
+        date: '27-29 Sep',
         title: 'PyCon JP',
         location: 'Tokyo, Japan',
         link: 'https://2024.pycon.jp',
