@@ -106,7 +106,7 @@ export default function Events() {
         link: 'https://pycon.id',
     },
     {
-      date: '25-27 Oct',
+      date: '26-27 Oct',
       title: 'PyCon KR',
       location: 'Suwon, South Korea',
       link: 'https://2024.pycon.kr/',
@@ -126,7 +126,19 @@ export default function Events() {
     
   ];
 
-  const eventsNextYear: any = [];
+  const eventsNextYear: any = [
+   {
+        date: '1-2 March',
+        title: 'PyCon APAC',
+        location: 'Ateneo de Manila University,Quezon City, Philippines',
+   },
+    {
+      date: '26-27 Sep',
+      title: 'PyCon JP',
+      location: 'Hiroshima, Japan',
+      link: 'https://2025.pycon.jp/',
+    }
+  ];
 
   return (
     <div className="events-container">
