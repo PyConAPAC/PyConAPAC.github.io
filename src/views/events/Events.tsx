@@ -112,7 +112,7 @@ export default function Events() {
       link: 'https://2024.pycon.kr/',
     },
     {
-        date: '16 Nov (Tentative)',
+        date: '16-17 Nov',
         title: 'PyCon HK',
         location: 'Hong Kong',
         link: 'https://pycon.hk/2024/',
