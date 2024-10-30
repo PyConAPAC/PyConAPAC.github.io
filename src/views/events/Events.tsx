@@ -7,13 +7,13 @@ export default function Events() {
     {
       key: 1,
       img: 'images/event-slide-1.png',
-      title: 'PyCon APAC 2024',
+      title: 'PyCon APAC 2025',
       badgeText: 'UPCOMING',
       badgeType: 'danger',
-      description: "PyCon APAC 2024 will be hosted by PyCon ID.",
+      description: "PyCon APAC 2024 will be hosted by PyCon PH.",
       info: [
-        "2024 October Oct 25-27",
-        "Yogyakarta, Indonesia"
+        "2025 October March 1-2",
+        "Metro Manila, Philippines"
       ]
     },
 /*    {
@@ -127,16 +127,16 @@ export default function Events() {
   ];
 
   const eventsNextYear: any = [
-   {
-        date: '1-2 March',
-        title: 'PyCon APAC',
-        location: 'Ateneo de Manila University,Quezon City, Philippines',
-   },
     {
-      date: '26-27 Sep',
-      title: 'PyCon JP',
-      location: 'Hiroshima, Japan',
-      link: 'https://2025.pycon.jp/',
+          date: '1-2 March',
+          title: 'PyCon APAC',
+          location: 'Ateneo de Manila University, Quezon City, Philippines',
+     },
+    {
+        date: '26-27 Sep',
+        title: 'PyCon JP',
+        location: 'Hiroshima, Japan',
+        link: 'https://2025.pycon.jp/',
     }
   ];
 
@@ -214,7 +214,7 @@ export default function Events() {
                     ))}
                     <br className="mobile-off" />
                     <br className="mobile-off" />
-                    <a href="https://pycon.id">
+                    <a href="https://pycon-apac.python.ph">
                       <button className="button-primary">Learn More</button>
                     </a>
                   </div>
