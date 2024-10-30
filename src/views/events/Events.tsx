@@ -10,7 +10,7 @@ export default function Events() {
       title: 'PyCon APAC 2025',
       badgeText: 'UPCOMING',
       badgeType: 'danger',
-      description: "PyCon APAC 2024 will be hosted by PyCon PH.",
+      description: "PyCon APAC 2025 will be hosted by PyCon PH.",
       info: [
         "2025 March 1-2",
         "Metro Manila, Philippines"
