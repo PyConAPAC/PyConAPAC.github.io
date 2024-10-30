@@ -7,7 +7,7 @@ export default function Events() {
     {
       key: 1,
       img: 'images/event-slide-1.png',
-      title: 'PyCon APAC 2025',
+      title: 'PyCon APAC 2025 ',
       badgeText: 'UPCOMING',
       badgeType: 'danger',
       description: "PyCon APAC 2025 will be hosted by PyCon PH.",
@@ -16,7 +16,7 @@ export default function Events() {
         "Metro Manila, Philippines"
       ]
     },
-/*    {
+/* test    {
       key: 2,
       img: 'images/event-slide-1.png',
       title: 'Pycon APAC 2022',
