@@ -128,10 +128,11 @@ export default function Events() {
 
   const eventsNextYear: any = [
     {
-          date: '1-2 March',
-          title: 'PyCon APAC',
-          location: 'Ateneo de Manila University, Quezon City, Philippines',
-     },
+        date: '1-2 March',
+        title: 'PyCon APAC',
+        location: 'Ateneo de Manila University, Quezon City, Philippines',
+        link: 'https://pycon-apac.python.ph/',
+    },
     {
         date: '26-27 Sep',
         title: 'PyCon JP',
