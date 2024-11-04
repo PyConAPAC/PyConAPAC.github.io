@@ -65,10 +65,10 @@ To add an event, append a new object to either the events or eventsNextYear arra
 ```javascript
 const events = [
     {
-        name: "New Event Title",
-        date: "2024-01-01",
-        location: "Location Name",
-        link: "https://pycon.asia"
+        date: '01-02 Jan',
+        name: 'PyCon APAC',
+        location: 'Asia Pacific (rotating)',
+        link: 'https://pycon.asia'
     },
 ]
 ```
