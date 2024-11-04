@@ -44,13 +44,12 @@ Contributing
 
 Pull requests are welcome! :)
 
-How to Create/submit a Pull Request
-###
+### How to Create/submit a Pull Request
 
 More info: https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/
 
-Adding your PyCon to the website
-###
+### Adding your PyCon to the website
+
 To add new or edit events to the website, make an edit and submit a pull request
 to this repository:
 
@@ -67,15 +66,15 @@ To add an event, append a new object to either the events or eventsNextYear arra
 const events = [
     {
         name: "New Event Title",
-        date: "2024-06-15",
+        date: "2024-01-01",
         location: "Location Name",
-        description: "Description of the new event."
+        link: "https://pycon.asia"
     },
 ]
 ```
 
-How to Test your Code Locally
-###
+
+### How to Test your Code Locally
 
 1. Make code changes
 2. `npm run start` - to check your changes locally
