@@ -1,58 +1,9 @@
 import { useState } from "react";
+import {slides, events, upcomingEvents} from './EventData';
 import './style.css';
 
 export default function Events() {
   const [currentSlide, changeCurrentSlide] = useState(1);
-  const slides = [
-    {
-      key: 1,
-      img: 'images/event-slide-1.png',
-      title: 'PyCon APAC 2025 ',
-      badgeText: 'UPCOMING',
-      badgeType: 'danger',
-      description: "PyCon APAC 2025 will be hosted by PyCon PH.",
-      info: [
-        "2025 March 1-2",
-        "Metro Manila, Philippines"
-      ]
-    },
-/* test    {
-      key: 2,
-      img: 'images/event-slide-1.png',
-      title: 'Pycon APAC 2022',
-      badgeText: 'UPCOMING',
-      badgeType: 'info',
-      description: "Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,vel scelerisque nisl consectetur et. Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper.",
-      info: [
-        "2022 September 1, 8:00AM - 5:00PM CST",
-        "Taipei International Convention Center (TICC)"
-      ]
-    },
-    {
-      key: 3,
-      img: 'images/event-slide-1.png',
-      title: 'Pycon APAC 2022',
-      badgeText: 'UPCOMING',
-      badgeType: 'warning',
-      description: "Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,vel scelerisque nisl consectetur et. Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper.",
-      info: [
-        "2022 September 1, 8:00AM - 5:00PM CST",
-        "Taipei International Convention Center (TICC)"
-      ]
-    },
-    {
-      key: 4,
-      img: 'images/event-slide-1.png',
-      title: 'Pycon APAC 2022',
-      badgeText: 'UPCOMING',
-      badgeType: 'success',
-      description: "Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,vel scelerisque nisl consectetur et. Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper.",
-      info: [
-        "2022 September 1, 8:00AM - 5:00PM CST",
-        "Taipei International Convention Center (TICC)"
-      ]
-    },*/
-  ]
 
   const setCurrentSlide = (data: any, idx: number):void => {
     data.preventDefault();
@@ -60,7 +11,6 @@ export default function Events() {
   }
 
   const nextPrevSlide = (idx: number) => {
-    console.log('nextPrevSlide', idx)
     if (idx > slides.length) {
       changeCurrentSlide(1);
     }else if (idx < 1) {
@@ -69,77 +19,6 @@ export default function Events() {
       changeCurrentSlide(idx);
     }
   }
-
-  const events: any = [
-    {
-        date: '25-26 Feb',
-        title: 'PyCon PH',
-        location: 'Makati Sports Club, Makati City, Philippines',
-        link: 'https://pycon-2024.python.ph',
-    },
-    {
-        date: '24-25 Aug',
-        title: 'PyCon MY',
-        link: 'https://pycon.my/'
-    },
-    {
-        date: '21-22 Sep',
-        title: 'PyCon TW',
-        link: 'https://tw.pycon.org/2024/'
-    },
-    {
-        date: '20-23 Sep',
-        title: 'PyCon India',
-        location: 'Bengaluru, India',
-        link: 'https://in.pycon.org/2024'
-    },
-    {
-        date: '27-29 Sep',
-        title: 'PyCon JP',
-        location: 'Tokyo, Japan',
-        link: 'https://2024.pycon.jp',
-    },
-    {
-        date: '25-27 Oct',
-        title: 'PyCon APAC',
-        location: 'Yogyakarta, Indonesia',
-        link: 'https://pycon.id',
-    },
-    {
-      date: '26-27 Oct',
-      title: 'PyCon KR',
-      location: 'Suwon, South Korea',
-      link: 'https://2024.pycon.kr/',
-    },
-    {
-        date: '16-17 Nov',
-        title: 'PyCon HK',
-        location: 'Hong Kong',
-        link: 'https://pycon.hk/2024/',
-    },
-    {
-        date: '22-26 Nov',
-        title: 'PyCon AU',
-        location: 'Melbourne, Australia',
-        link: 'https://2024.pycon.org.au/',
-    }    
-    
-  ];
-
-  const eventsNextYear: any = [
-    {
-        date: '1-2 March',
-        title: 'PyCon APAC',
-        location: 'Ateneo de Manila University, Quezon City, Philippines',
-        link: 'https://pycon-apac.python.ph/',
-    },
-    {
-        date: '26-27 Sep',
-        title: 'PyCon JP',
-        location: 'Hiroshima, Japan',
-        link: 'https://2025.pycon.jp/',
-    }
-  ];
 
   return (
     <div className="events-container">
@@ -163,7 +42,7 @@ export default function Events() {
             </div>
           </div>
         </div>
-        {eventsNextYear.length > 0 && (
+        {upcomingEvents.length > 0 && (
           <div className="row">
             <div className="col-lg-6 col-xs-12">
               <div className="left-text-content">
@@ -174,7 +53,7 @@ export default function Events() {
                 </div>
                 <div className="medium-text text-white" style={{opacity: '60%'}}>
                   <ul>
-                    {eventsNextYear.map((event: any, index: number) => (
+                    {upcomingEvents.map((event: any, index: number) => (
                       <li key={index}>{event.date}: <strong>{event.title}</strong> {event.location} {event.link && <a href={event.link}>🔗</a>}</li>
                     ))}
                   </ul>
@@ -223,6 +102,8 @@ export default function Events() {
               </div>
             </div>
           ))}
+
+        {slides.length > 1 && (
           <div className="mt-4 slide-changer">
             <div className="pagination">
               {slides.map((slide, index) => (
@@ -252,6 +133,7 @@ export default function Events() {
               </div> 
             </div>
           </div>
+        )}
         </div>
       </div>
     </div>
