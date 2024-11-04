@@ -50,8 +50,8 @@ More info: https://www.freecodecamp.org/news/how-to-make-your-first-pull-request
 
 ### Adding your PyCon to the website
 
-To add new or edit events to the website, make an edit and submit a pull request
-to this repository:
+To add new events or edit existing ones on the website, please make the necessary
+changes in the event data and submit a pull request
 
 The event data is located at [EventData.js](src/views/events/EventData.js)
 
