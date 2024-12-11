@@ -25,7 +25,7 @@ export default function CodeofConduct() {
         origin="bottom"
       >
         <div className="medium-text" style={{opacity: '60%'}}>
-                To make clear what is expected, all delegates/attendees, speakers, exhibitors, organizers, and volunteers at any PyCon APAC event are required to conform to the following <a href="https://www.python.org/psf/conduct">Code of Conduct</a>.
+                To make clear what is expected, all delegates/attendees, speakers, exhibitors, organizers, and volunteers at any PyCon APAC event are required to conform to the following <a href="https://github.com/PythonAsiaOrganization/public-docs/blob/main/CODE_OF_CONDUCT.md">Code of Conduct</a>.
         </div>
       </ScrollReveal>
     </div>
