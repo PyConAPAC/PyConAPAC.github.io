@@ -10,8 +10,11 @@ export default function Footer() {
                     <div className="left-text-content">
                         <img className="footer-logo" src="images/logo.png" alt="Python APAC" />
                         <div className="small-text text-white" style={{opacity: '60%'}}>
-                            We are Pycon APAC Organizers from Singapore, Malaysia, Indonesia, Philippines,
-                            Thailand, South Korea, Hong Kong, Vietnam, Japan, India, Bangladesh and Taiwan.
+                            This site is managed by Python Asia Organization MTÜ (PAO), a non-profit entity uniting
+                            community organizers from across Singapore, Malaysia, Indonesia, Philippines, Thailand,
+                            South Korea, Hong Kong, Vietnam, Japan, India, Bangladesh, and Taiwan.
+                            Through PAO, we foster collaborative efforts, support conference organization,'
+                            and cultivate regional leadership to strengthen the Python ecosystem throughout Asia.
                         </div>
                         <br />
                         <div className="d-flex country-items">
@@ -89,7 +92,7 @@ export default function Footer() {
                 <div className="col-lg-6 col-xs-12">
                     <div className="left-text-content">
                         <div className="small-text text-white footer-credit">
-                            © 2022 PyCon APAC
+                            © 2024 Python Asia Organization MTÜ
                         </div>
                     </div>
                 </div>
