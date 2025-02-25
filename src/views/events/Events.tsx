@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {slides, events, upcomingEvents} from './EventData';
+import {slides, currentYear, events, upcomingEvents} from './EventData';
 import './style.css';
 
 export default function Events() {
@@ -29,7 +29,7 @@ export default function Events() {
               <div className="section-heading">
                 <h1 className="text-white">Events</h1>
                 <br />
-                <h4 className="text-white">Regional PyCon 2024 in APAC Schedule</h4>
+                <h4 className="text-white">Regional PyCon {currentYear} in APAC Schedule</h4>
                 <br />
               </div>
               <div className="medium-text text-white" style={{opacity: '60%'}}>
@@ -48,7 +48,7 @@ export default function Events() {
               <div className="left-text-content">
                 <div className="section-heading">
                   <br />
-                  <h4 className="text-white">Regional PyCon 2025 in APAC Schedule</h4>
+                  <h4 className="text-white">Regional PyCon {currentYear+1} in APAC Schedule</h4>
                   <br />
                 </div>
                 <div className="medium-text text-white" style={{opacity: '60%'}}>
