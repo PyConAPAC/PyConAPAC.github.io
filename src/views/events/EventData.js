@@ -1,6 +1,6 @@
-// Array of events for the current year's PyCon
 export const currentYear = 2025
 
+// Array of events for the current year's PyCon
 export const events = [
     {
         date: '1-2 March',
