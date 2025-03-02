@@ -9,6 +9,12 @@ export const events = [
         link: 'https://pycon-apac.python.ph/',
     },
     {
+        date: '18-20 June',
+        title: 'PyCon SG',
+        location: 'Singapore Institute of Technology, Singapore',
+        link: 'https://pycon.sg',
+    },
+    {
         date: '26-27 Sep',
         title: 'PyCon JP',
         location: 'Hiroshima, Japan',
