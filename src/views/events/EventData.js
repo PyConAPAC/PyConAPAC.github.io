@@ -1,6 +1,7 @@
 export const currentYear = 2025
 
 // Array of events for the current year's PyCon
+// Please ensure the events are listed in ascending order by date.
 export const events = [
     {
         date: '1-2 March',
@@ -15,21 +16,22 @@ export const events = [
         link: 'https://pycon.sg',
     },
     {
-        date: '26-27 Sep',
-        title: 'PyCon JP',
-        location: 'Hiroshima, Japan',
-        link: 'https://2025.pycon.jp/',
-    },
-    {
         date: '15-17 August',
         title: 'PyCon KR',
         location: 'Dongguk University, Seoul, South Korea',
         link: 'https://2025.pycon.kr/',
-    }
+    },
+    {
+      date: '26-27 Sep',
+      title: 'PyCon JP',
+      location: 'Hiroshima, Japan',
+      link: 'https://2025.pycon.jp/',
+  },
   ];
 
 
 // Array of upcoming events for the next year
+// Please ensure the events are listed in ascending order by date.
 export const upcomingEvents = [
     // e.g.
     // {
