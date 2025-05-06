@@ -15,6 +15,12 @@ export const events = [
         link: 'https://pycon.sg',
     },
     {
+        date: '12-16 Sep',
+        title: 'PyCon AU',
+        location: 'Melbourne, Australia',
+        link: 'https://2025.pycon.org.au/',
+    },
+    {
         date: '26-27 Sep',
         title: 'PyCon JP',
         location: 'Hiroshima, Japan',
