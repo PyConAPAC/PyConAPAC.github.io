@@ -1,58 +1,9 @@
 import { useState } from "react";
+import {slides, currentYear, events, upcomingEvents} from './EventData';
 import './style.css';
 
 export default function Events() {
   const [currentSlide, changeCurrentSlide] = useState(1);
-  const slides = [
-    {
-      key: 1,
-      img: 'images/event-slide-1.png',
-      title: 'PyCon APAC 2024',
-      badgeText: 'UPCOMING',
-      badgeType: 'danger',
-      description: "PyCon APAC 2024 will be hosted by PyCon ID.",
-      info: [
-        "2024 October Oct 25-27",
-        "Yogyakarta, Indonesia"
-      ]
-    },
-/*    {
-      key: 2,
-      img: 'images/event-slide-1.png',
-      title: 'Pycon APAC 2022',
-      badgeText: 'UPCOMING',
-      badgeType: 'info',
-      description: "Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,vel scelerisque nisl consectetur et. Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper.",
-      info: [
-        "2022 September 1, 8:00AM - 5:00PM CST",
-        "Taipei International Convention Center (TICC)"
-      ]
-    },
-    {
-      key: 3,
-      img: 'images/event-slide-1.png',
-      title: 'Pycon APAC 2022',
-      badgeText: 'UPCOMING',
-      badgeType: 'warning',
-      description: "Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,vel scelerisque nisl consectetur et. Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper.",
-      info: [
-        "2022 September 1, 8:00AM - 5:00PM CST",
-        "Taipei International Convention Center (TICC)"
-      ]
-    },
-    {
-      key: 4,
-      img: 'images/event-slide-1.png',
-      title: 'Pycon APAC 2022',
-      badgeText: 'UPCOMING',
-      badgeType: 'success',
-      description: "Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,vel scelerisque nisl consectetur et. Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper.",
-      info: [
-        "2022 September 1, 8:00AM - 5:00PM CST",
-        "Taipei International Convention Center (TICC)"
-      ]
-    },*/
-  ]
 
   const setCurrentSlide = (data: any, idx: number):void => {
     data.preventDefault();
@@ -60,7 +11,6 @@ export default function Events() {
   }
 
   const nextPrevSlide = (idx: number) => {
-    console.log('nextPrevSlide', idx)
     if (idx > slides.length) {
       changeCurrentSlide(1);
     }else if (idx < 1) {
@@ -155,7 +105,7 @@ export default function Events() {
               <div className="section-heading">
                 <h1 className="text-white">Events</h1>
                 <br />
-                <h4 className="text-white">Regional PyCon 2024 in APAC Schedule</h4>
+                <h4 className="text-white">Regional PyCon {currentYear} in APAC Schedule</h4>
                 <br />
               </div>
               <div className="medium-text text-white" style={{opacity: '60%'}}>
@@ -168,18 +118,18 @@ export default function Events() {
             </div>
           </div>
         </div>
-        {eventsNextYear.length > 0 && (
+        {upcomingEvents.length > 0 && (
           <div className="row">
             <div className="col-lg-6 col-xs-12">
               <div className="left-text-content">
                 <div className="section-heading">
                   <br />
-                  <h4 className="text-white">Regional PyCon 2025 in APAC Schedule</h4>
+                  <h4 className="text-white">Regional PyCon {currentYear+1} in APAC Schedule</h4>
                   <br />
                 </div>
                 <div className="medium-text text-white" style={{opacity: '60%'}}>
                   <ul>
-                    {eventsNextYear.map((event: any, index: number) => (
+                    {upcomingEvents.map((event: any, index: number) => (
                       <li key={index}>{event.date}: <strong>{event.title}</strong> {event.location} {event.link && <a href={event.link}>🔗</a>}</li>
                     ))}
                   </ul>
@@ -220,7 +170,7 @@ export default function Events() {
                     ))}
                     <br className="mobile-off" />
                     <br className="mobile-off" />
-                    <a href="https://pycon.id">
+                    <a href="https://pycon-apac.python.ph">
                       <button className="button-primary">Learn More</button>
                     </a>
                   </div>
@@ -228,6 +178,8 @@ export default function Events() {
               </div>
             </div>
           ))}
+
+        {slides.length > 1 && (
           <div className="mt-4 slide-changer">
             <div className="pagination">
               {slides.map((slide, index) => (
@@ -257,6 +209,7 @@ export default function Events() {
               </div> 
             </div>
           </div>
+        )}
         </div>
       </div>
     </div>

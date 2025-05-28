@@ -44,14 +44,37 @@ Contributing
 
 Pull requests are welcome! :)
 
-How to Create/submit a Pull Request
-###
+### How to Create/submit a Pull Request
 
 More info: https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/
 
+### Adding your PyCon to the website
 
-How to Test your Code Locally
-###
+To add new events or edit existing ones on the website, please make the necessary
+changes in the event data and submit a pull request
+
+The event data is located at [EventData.js](src/views/events/EventData.js)
+
+The `EventData.js` file contains three arrays:
+
+1. **slides**: Highlights the incoming host for the upcoming PyCon APAC.
+2. **events**: Current year's PyCon events.
+3. **upcomingEvents**: Upcoming events for next year.
+
+To add an event, append a new object to either the events or eventsNextYear array.
+```javascript
+const events = [
+    {
+        date: '01-02 Jan',
+        name: 'PyCon APAC',
+        location: 'Asia Pacific (rotating)',
+        link: 'https://pycon.asia'
+    },
+]
+```
+
+
+### How to Test your Code Locally
 
 1. Make code changes
 2. `npm run start` - to check your changes locally
