@@ -25,6 +25,12 @@ export const events = [
         title: 'PyCon KR',
         location: 'Dongguk University, Seoul, South Korea',
         link: 'https://2025.pycon.kr/',
+    },
+    {
+      date: '11-12 Oct(tentative)',
+      title: 'PyCon HK',
+      location: 'City University of Hong Kong, Hong Kong',  
+      link: 'https://pycon.hk',
     }
   ];
 
