@@ -10,7 +10,7 @@ export default function Footer() {
                     <div className="left-text-content">
                         <img className="footer-logo" src="images/logo.png" alt="Python APAC" />
                         <div className="small-text text-white" style={{opacity: '60%'}}>
-                            This site is managed by Python Asia Organization MTÜ (PAO), a non-profit entity uniting
+                            This site is managed by <a href="https://pythonasia.org/">Python Asia Organization MTÜ (PAO)</a>, a non-profit entity uniting
                             community organizers from across Singapore, Malaysia, Indonesia, Philippines, Thailand,
                             South Korea, Hong Kong, Vietnam, Japan, India, Bangladesh, and Taiwan.
                             Through PAO, we foster collaborative efforts, support conference organization,'
@@ -92,7 +92,7 @@ export default function Footer() {
                 <div className="col-lg-6 col-xs-12">
                     <div className="left-text-content">
                         <div className="small-text text-white footer-credit">
-                            © 2024 Python Asia Organization MTÜ
+                            © 2024 <a href="https://pythonasia.org/">Python Asia Organization MTÜ (PAO)</a>
                         </div>
                     </div>
                 </div>
