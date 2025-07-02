@@ -15,16 +15,16 @@ export const events = [
         link: 'https://pycon.sg',
     },
     {
-        date: '15-17 August',
-        title: 'PyCon KR',
-        location: 'Dongguk University, Seoul, South Korea',
-        link: 'https://2025.pycon.kr/',
-    },
-    {
         date: '5-7 August',
         title: 'PyCon TW',
         location: 'Taipei, Taiwan',
         link: 'https://tw.pycon.org/2025/en-us',
+    },
+    {
+        date: '15-17 August',
+        title: 'PyCon KR',
+        location: 'Dongguk University, Seoul, South Korea',
+        link: 'https://2025.pycon.kr/',
     },
     {
         date: '12-15 Sep',
