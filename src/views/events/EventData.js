@@ -15,28 +15,46 @@ export const events = [
         link: 'https://pycon.sg',
     },
     {
-        date: '12-16 Sep',
-        title: 'PyCon AU',
-        location: 'Melbourne, Australia',
-        link: 'https://2025.pycon.org.au/',
-    },
-    {
-        date: '26-27 Sep',
-        title: 'PyCon JP',
-        location: 'Hiroshima, Japan',
-        link: 'https://2025.pycon.jp/',
-    },
-    {
         date: '15-17 August',
         title: 'PyCon KR',
         location: 'Dongguk University, Seoul, South Korea',
         link: 'https://2025.pycon.kr/',
     },
     {
+        date: '5-7 August',
+        title: 'PyCon TW',
+        location: 'Taipei, Taiwan',
+        link: 'https://tw.pycon.org/2025/en-us',
+    },
+    {
+        date: '12-15 Sep',
+        title: 'PyCon India',
+        location: 'Nimhans Convention Center, Bangalore, India',
+        link: 'https://in.pycon.org/2025/',
+    },
+    {
+        date: '12-16 Sep',
+        title: 'PyCon AU',
+        location: 'Melbourne, Australia',
+        link: 'https://2025.pycon.org.au',
+    },
+    {
+        date: '26-27 Sep',
+        title: 'PyCon JP',
+        location: 'Hiroshima, Japan',
+        link: 'https://2025.pycon.jp',
+    },
+    {
       date: '11-12 Oct(tentative)',
       title: 'PyCon HK',
       location: 'City University of Hong Kong, Hong Kong',  
       link: 'https://pycon.hk',
+    },
+    {
+      date: '17-18 Oct',
+      title: 'PyCon TH',
+      location: 'Avani Sukhumvit Bangkok Hotel, Bangkok, Thailand',
+      link: 'https://th.pycon.org',
     }
   ];
 
