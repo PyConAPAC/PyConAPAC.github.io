@@ -378,6 +378,7 @@ button.button-secondary:hover, button.button-secondary-lg:hover {
 
 .w-fit-avail {
   width: -webkit-fill-available;
+  width: -moz-available;
 }
 
 .h-full {
