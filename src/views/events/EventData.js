@@ -15,16 +15,16 @@ export const events = [
         link: 'https://pycon.sg',
     },
     {
-        date: '5-7 August',
-        title: 'PyCon TW',
-        location: 'Taipei, Taiwan',
-        link: 'https://tw.pycon.org/2025/en-us',
-    },
-    {
         date: '15-17 August',
         title: 'PyCon KR',
         location: 'Dongguk University, Seoul, South Korea',
         link: 'https://2025.pycon.kr/',
+    },
+    {
+        date: '5-7 September',
+        title: 'PyCon TW',
+        location: 'Taipei, Taiwan',
+        link: 'https://tw.pycon.org/2025/en-us',
     },
     {
         date: '12-15 Sep',
@@ -78,9 +78,9 @@ export const slides = [
       key: 1,
       img: 'images/event-slide-1.png',
       title: 'PyCon APAC 2025 ',
-      badgeText: 'UPCOMING',
+      badgeText: 'FLAGSHIP REGIONAL EVENT',
       badgeType: 'success',
-      description: "PyCon APAC 2025 will be hosted by PyCon PH.",
+      description: "PyCon APAC 2025 was hosted by PyCon PH.",
       info: [
         "2025 March 1-2",
         "Metro Manila, Philippines"
