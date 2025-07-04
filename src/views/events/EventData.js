@@ -22,7 +22,7 @@ export const events = [
     },
     {
         date: '5-7 September',
-        title: 'PyCon TW',
+        title: 'PyCon TW ',
         location: 'Taipei, Taiwan',
         link: 'https://tw.pycon.org/2025/en-us',
     },
