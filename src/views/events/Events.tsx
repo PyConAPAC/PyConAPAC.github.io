@@ -32,12 +32,29 @@ export default function Events() {
                 <h4 className="text-white">Regional PyCon {currentYear} in APAC Schedule</h4>
                 <br />
               </div>
-              <div className="medium-text text-white" style={{opacity: '60%'}}>
-                <ul>
+              <div className="medium-text text-white">
+{/*                <ul>
                   {events.map((event: any, index: number) => (
                     <li>{event.date}: <strong>{event.title}</strong> {event.location} {event.link && <a href={event.link}>🔗</a>}</li>
                   ))}
-                </ul>
+                </ul>*/}
+                <div className="event-cards">
+                  {events.map((event, index) => (
+                    <a
+                      key={index}
+                      href={event.link}
+                      className="event-card"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="event-date">{event.date}</span>
+                      <span className="event-title">{event.title}</span>
+                      <span className="event-location">{event.location}</span>
+                    </a>
+                  ))}
+                </div>
+
+
               </div>
             </div>
           </div>
