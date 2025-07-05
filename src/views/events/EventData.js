@@ -66,6 +66,13 @@ export const events = [
       countryCode: 'TH',
     },
     {
+      date: '1-2 Nov',
+      title: 'PyCon MY',
+      location: '',
+      link: 'https://pycon.my',
+      countryCode: 'MY',
+    },
+    {
       date: '21-23 Nov',
       title: 'PyCon NZ',
       location: 'Wellington waterfront, New Zealand',
