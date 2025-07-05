@@ -111,3 +111,77 @@
     display: revert;
   }
 }
+
+
+.event-strip-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.event-strip {
+  background: #f5f3fa;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  color: #1a1a1a;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+
+.event-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.event-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.event-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.75rem 1rem;
+  background: #f5f3fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  color: #1a1a1a;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+  font-size: 0.95rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.event-card:hover {
+  background: #ece8f5;
+}
+
+.event-date {
+  flex: 0 0 auto;
+  min-width: 100px;
+  color: #555;
+}
+
+.event-title {
+  font-weight: 600;
+  flex: 0 0 auto;
+  min-width: 120px;
+  color: #222;
+}
+
+.event-location {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #444;
+}
