@@ -142,46 +142,58 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  margin-top: 1rem;
+  width: 100%;
 }
 
 .event-card {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
-  padding: 0.75rem 1rem;
+  padding: 1rem;
   background: #f5f3fa;
   border: 1px solid #ddd;
   border-radius: 8px;
   color: #1a1a1a;
   text-decoration: none;
   transition: background 0.2s ease, transform 0.2s ease;
-  font-size: 0.95rem;
+  gap: 1rem;
+  width: 100%;
+}
+
+.event-date-card {
+  background: #dcd6f7;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 600;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  color: #2c1e4a;
+  flex-shrink: 0;
 }
 
-.event-card:hover {
-  background: #ece8f5;
-}
-
-.event-date {
-  flex: 0 0 auto;
-  min-width: 100px;
-  color: #555;
+.event-details {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
 }
 
 .event-title {
   font-weight: 600;
-  flex: 0 0 auto;
-  min-width: 120px;
-  color: #222;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #1a1a1a;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .event-location {
-  flex: 1;
+  font-size: 0.9rem;
+  color: #555;
   overflow: hidden;
   text-overflow: ellipsis;
-  color: #444;
+  white-space: nowrap;
 }

@@ -33,24 +33,23 @@ export default function Events() {
                 <br />
               </div>
               <div className="medium-text text-white">
-{/*                <ul>
-                  {events.map((event: any, index: number) => (
-                    <li>{event.date}: <strong>{event.title}</strong> {event.location} {event.link && <a href={event.link}>🔗</a>}</li>
-                  ))}
-                </ul>*/}
                 <div className="event-cards">
                   {events.map((event, index) => (
-                    <a
-                      key={index}
-                      href={event.link}
-                      className="event-card"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <span className="event-date">{event.date}</span>
-                      <span className="event-title">{event.title}</span>
-                      <span className="event-location">{event.location}</span>
-                    </a>
+                      <a
+                        key={index}
+                        href={event.link}
+                        className="event-card"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <div className="event-date-card">{event.date}</div>
+                        <div className="event-details">
+                          <div className="event-title">
+                            {countryCodeToFlag(event.countryCode)} {event.title}
+                          </div>
+                          <div className="event-location">{event.location}</div>
+                        </div>
+                      </a>
                   ))}
                 </div>
 
@@ -71,7 +70,7 @@ export default function Events() {
                 <div className="medium-text text-white" style={{opacity: '60%'}}>
                   <ul>
                     {upcomingEvents.map((event: any, index: number) => (
-                      <li key={index}>{event.date}: <strong>{event.title}</strong> {event.location} {event.link && <a href={event.link}>🔗</a>}</li>
+                      <li key={index}>{event.date}:  <strong>{event.title}</strong> {event.location} {event.link && <a href={event.link}>🔗</a>}</li>
                     ))}
                   </ul>
                 </div>
@@ -156,3 +155,10 @@ export default function Events() {
     </div>
   )
 }
+
+
+const countryCodeToFlag = (code: string) => {
+  if (!code || code.length !== 2) return '';
+  const offset = 127397;
+  return String.fromCodePoint(...code.toUpperCase().split('').map(c => c.charCodeAt(0) + offset));
+};
