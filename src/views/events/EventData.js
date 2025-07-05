@@ -55,6 +55,12 @@ export const events = [
       title: 'PyCon TH',
       location: 'Avani Sukhumvit Bangkok Hotel, Bangkok, Thailand',
       link: 'https://th.pycon.org',
+    },
+    {
+      date: '21-23 Nov',
+      title: 'PyCon NZ',
+      location: 'Wellington waterfront, New Zealand',
+      link: 'https://kiwipycon.nz',
     }
   ];
 
