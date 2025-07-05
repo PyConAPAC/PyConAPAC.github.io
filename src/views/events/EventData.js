@@ -52,7 +52,7 @@ export const events = [
         countryCode: 'JP',
     },
     {
-      date: '11-12 October (tentative)',
+      date: '11-12 October',
       title: 'PyCon HK',
       location: 'City University of Hong Kong, Hong Kong',  
       link: 'https://pycon.hk',
@@ -68,14 +68,14 @@ export const events = [
     {
       date: '1-2 November',
       title: 'PyCon MY',
-      location: '',
+      location: 'Sunway University, Subang Jaya, Malaysia',
       link: 'https://pycon.my',
       countryCode: 'MY',
     },
     {
       date: '21-23 November',
       title: 'PyCon NZ',
-      location: 'Wellington waterfront, New Zealand',
+      location: 'Wellington Waterfront, New Zealand',
       link: 'https://kiwipycon.nz',
       countryCode: 'NZ',
     }
