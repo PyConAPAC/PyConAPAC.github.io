@@ -9,8 +9,12 @@ export default function Preheader() {
           <h1 className="text-white">PyCon APAC Organizers</h1>
           <h1 className="text-white"></h1>
           <div className="medium-text text-white" style={{opacity: '60%', margin: '15px 0 50px 0'}}>
-            <div>We are a group of PyCon organizers in APAC.</div>
-            <div>Every year, we hold a regional counterpart of PyCon in Asia-Pacific and we call it PyCon APAC.</div>
+            <div>Welcome to the PyCon APAC Organizers site — your go-to hub for all Regional PyCons across Asia-Pacific.
+            </div>
+            <div>This platform is a collaborative effort from organizers in the APAC community to make event info easier to find and follow.
+            </div>
+            <div>We’re continuously improving it. <a href="https://github.com/pyconapac"><strong>Pull requests are welcome</strong></a>! :)
+            </div>
           </div>
 {/*          <div className="d-flex justify-content-center">
             <button className="button-primary-lg">Learn More</button>
