@@ -28,8 +28,8 @@ export default function Header() {
                 <Nav className="justify-content-end flex-grow-1 pe-3 pl-3 pr-3">
                   <Nav.Link href="#top" className="text-white scroll-to-section active">Home</Nav.Link>
                   <Nav.Link href="#about" className="text-white scroll-to-section">About</Nav.Link>
-                  <Nav.Link href="#what-we-do" className="text-white scroll-to-section">What We Do</Nav.Link>
                   <Nav.Link href="#events" className="text-white scroll-to-section">Events</Nav.Link>
+                  <Nav.Link href="#what-we-do" className="text-white scroll-to-section">What We Do</Nav.Link>
                   <Nav.Link href="#code-of-conduct" className="text-white scroll-to-section">Code of Conduct</Nav.Link>
                 </Nav>
                 <a href="#contact-us">

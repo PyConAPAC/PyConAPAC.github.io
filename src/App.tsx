@@ -18,13 +18,13 @@ function App() {
         <section id="about">
           <About />
         </section>
-        <section id="what-we-do">
-          <WhatWeDo />
-        </section>
       </div>
       <section id="events">
         <Events />
       </section>
+      <section id="what-we-do">
+          <WhatWeDo />
+        </section>
       <section id="code-of-conduct">
         <CodeofConduct />
       </section>
