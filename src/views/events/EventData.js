@@ -78,6 +78,13 @@ export const events = [
       location: 'Wellington Waterfront, New Zealand',
       link: 'https://kiwipycon.nz',
       countryCode: 'NZ',
+    },
+    {
+      date: '6-7 December',
+      title: 'PyCon ID',
+      location: 'Jakarta, Indonesia',
+      link: 'https://pycon.id',
+      countryCode: 'ID',
     }
   ];
 
