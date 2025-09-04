@@ -5,7 +5,7 @@ export const events = [
     {
         date: '1-2 March',
         title: 'PyCon APAC',
-        location: 'Ateneo de Manila University, Quezon City, Philippines',
+        location: 'Ateneo de Manila University, Quezon City, Manila, Philippines',
         link: 'https://pycon-apac.python.ph/',
         countryCode: 'PH',
     },
@@ -64,6 +64,13 @@ export const events = [
       location: 'Avani Sukhumvit Bangkok Hotel, Bangkok, Thailand',
       link: 'https://th.pycon.org',
       countryCode: 'TH',
+    },
+    {
+      date: '25-26 October',
+      title: 'PyCon Davao',
+      location: 'Ateneo de Davao University, Davao City, Philippines',
+      link: 'https://pycon-davao.durianpy.org',
+      countryCode: 'PH',
     },
     {
       date: '1-2 November',
