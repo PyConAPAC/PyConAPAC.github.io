@@ -87,7 +87,7 @@ export const events = [
       countryCode: 'NZ',
     },
     {
-      date: '6-7 December',
+      date: '13-14 December',
       title: 'PyCon ID',
       location: 'Jakarta, Indonesia',
       link: 'https://pycon.id',
