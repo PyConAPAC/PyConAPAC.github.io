@@ -114,13 +114,13 @@ export const slides = [
     {
       key: 1,
       img: 'images/event-slide-1.png',
-      title: 'PyCon APAC 2025 ',
+      title: 'PythonAsia 2026 ',
       badgeText: 'FLAGSHIP REGIONAL EVENT',
       badgeType: 'success',
-      description: "PyCon APAC 2025 was hosted by PyCon PH.",
+      description: "PythonAsia 2026 will be proudly hosted in the Philippines, by PythonPH in collaboration with the Python Asia Organization (PAO). The same heart of PyCon APAC, now as PythonAsia.",
       info: [
-        "2025 March 1-2",
-        "Metro Manila, Philippines"
+        "2026 March 21-23",
+        "Malate, Metro Manila, Philippines"
       ]
     },
   ]
