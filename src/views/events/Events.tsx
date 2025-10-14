@@ -110,7 +110,7 @@ export default function Events() {
                     ))}
                     <br className="mobile-off" />
                     <br className="mobile-off" />
-                    <a href="https://pycon-apac.python.ph">
+                    <a href="https://2026.pythonasia.org">
                       <button className="button-primary">Learn More</button>
                     </a>
                   </div>
