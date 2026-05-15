@@ -3,6 +3,13 @@ export const currentYear = 2026
 // Array of events for the current year's PyCon
 export const events = [
     {
+        date: '21-23 March',
+        title: 'PythonAsia 2026',
+        location: 'Manila, Philippines',
+        link: 'https://2026.pythonasia.org',
+        countryCode: 'PH',
+    },
+    {
         date: '9 May',
         title: 'PyCon Busan',
         location: 'Busan, South Korea',
