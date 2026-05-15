@@ -5,7 +5,7 @@ export const events = [
     {
         date: '21-23 March',
         title: 'PythonAsia 2026',
-        location: 'Manila, Philippines',
+        location: 'De La Salle University (DLSU), Manila, Philippines',
         link: 'https://2026.pythonasia.org',
         countryCode: 'PH',
     },
@@ -85,7 +85,7 @@ export const slides = [
       description: "PythonAsia 2026 will be proudly hosted in the Philippines, by PythonPH in collaboration with the Python Asia Organization (PAO). The same heart of PyCon APAC, now as PythonAsia.",
       info: [
         "2026 March 21-23",
-        "Malate, Metro Manila, Philippines"
+        "De La Salle University (DLSU), Malate, Metro Manila, Philippines"
       ]
     },
   ]
