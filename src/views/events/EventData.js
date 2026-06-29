@@ -76,6 +76,12 @@ export const upcomingEvents = [
         location: 'Singapore',
         link: 'https://pycon.sg/',
     },
+    {
+        date: 'June 2027',
+        title: 'PyCon TH 2027',
+        location: 'Thailand',
+        link: 'https://th.pycon.org',
+    },
   ];
 
 
