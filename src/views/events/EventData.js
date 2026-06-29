@@ -52,7 +52,14 @@ export const events = [
         countryCode: 'ID',
     },
     {
-        date: 'Oct-Nov',
+        date: 'September (TBA)',
+        title: 'PyCon TW',
+        location: 'Taiwan',
+        link: 'https://tw.pycon.org',
+        countryCode: 'ID',
+    },
+    {
+        date: '14-15 November 2026',
         title: 'PyCon HK',
         location: 'Hong Kong',
         link: 'https://www.pycon.hk',
