@@ -39,7 +39,7 @@ export const events = [
     },
     {
         date: '26-30 August',
-        title: 'PyCon AU',
+        title: 'PyCon AU 2026',
         location: 'Brisbane, Australia',
         link: 'https://2026.pycon.org.au',
         countryCode: 'AU',
