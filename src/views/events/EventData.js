@@ -70,9 +70,8 @@ export const events = [
 
 // Array of upcoming events for the next year
 export const upcomingEvents = [
-    e.g.
     {
-        date: 'June',
+        date: 'June 2027',
         title: 'PythonAsia 2027',
         location: 'Singapore',
         link: 'https://pycon.sg/',
