@@ -70,13 +70,13 @@ export const events = [
 
 // Array of upcoming events for the next year
 export const upcomingEvents = [
-    // e.g.
-    // {
-    //     date: '1-2 March',
-    //     title: 'PyCon APAC',
-    //     location: 'Ateneo de Manila University, Quezon City, Philippines',
-    //     link: 'https://pycon-apac.python.ph/',
-    // },
+    e.g.
+    {
+        date: 'June',
+        title: 'PythonAsia 2027',
+        location: 'Singapore',
+        link: 'https://pycon.sg/',
+    },
   ];
 
 
