@@ -3,35 +3,35 @@ export const currentYear = 2026
 // Array of events for the current year's PyCon
 export const events = [
     {
-        date: '21-23 March',
+        date: '21-23 March 2026',
         title: 'PythonAsia 2026',
         location: 'De La Salle University (DLSU), Manila, Philippines',
         link: 'https://2026.pythonasia.org',
         countryCode: 'PH',
     },
     {
-        date: '9 May',
+        date: '9 May 2026',
         title: 'PyCon Busan',
         location: 'Busan, South Korea',
         link: 'https://busan.pycon.kr/2026',
         countryCode: 'KR',
     },
     {
-        date: '19-21 June',
+        date: '19-21 June 2026',
         title: 'PyCon SG',
         location: 'Singapore',
         link: 'https://pycon.sg',
         countryCode: 'SG',
     },
     {
-        date: '15-17 August',
+        date: '15-17 August 2026',
         title: 'PyCon KR',
         location: 'South Korea',
         link: 'https://2026.pycon.kr',
         countryCode: 'KR',
     },
     {
-        date: '21-23 August',
+        date: '21-23 August 2026',
         title: 'PyCon JP',
         location: 'Hiroshima, Japan',
         link: 'https://2026.pycon.jp',
@@ -45,14 +45,21 @@ export const events = [
         countryCode: 'AU',
     },
     {
-        date: '8-9 August',
+        date: '8-9 August 2026',
         title: 'PyCon ID',
         location: 'Jakarta, Indonesia',
         link: 'https://temp.pycon.id',
         countryCode: 'ID',
     },
     {
-        date: 'Oct-Nov',
+        date: 'September 2026 (TBA)',
+        title: 'PyCon TW',
+        location: 'Taiwan',
+        link: 'https://tw.pycon.org',
+        countryCode: 'ID',
+    },
+    {
+        date: '14-15 November 2026',
         title: 'PyCon HK',
         location: 'Hong Kong',
         link: 'https://www.pycon.hk',
@@ -63,13 +70,12 @@ export const events = [
 
 // Array of upcoming events for the next year
 export const upcomingEvents = [
-    // e.g.
-    // {
-    //     date: '1-2 March',
-    //     title: 'PyCon APAC',
-    //     location: 'Ateneo de Manila University, Quezon City, Philippines',
-    //     link: 'https://pycon-apac.python.ph/',
-    // },
+    {
+        date: 'June 2027',
+        title: 'PythonAsia 2027',
+        location: 'Singapore',
+        link: 'https://pycon.sg/',
+    },
   ];
 
 
