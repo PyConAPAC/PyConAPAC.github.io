@@ -71,14 +71,14 @@ export const events = [
 // Array of upcoming events for the next year
 export const upcomingEvents = [
     {
-        date: 'June 2027',
+        date: 'June 2027 (tentative)',
         title: 'PythonAsia 2027',
         location: 'Singapore',
         link: 'https://pycon.sg/',
         countryCode: 'SG',
     },
     {
-        date: 'June 2027',
+        date: 'June 2027 (tentative)',
         title: 'PyCon TH 2027',
         location: 'Thailand',
         link: 'https://th.pycon.org',
@@ -98,7 +98,7 @@ export const slides = [
       badgeType: 'success',
       description: "PythonAsia 2027 will be hosted in Singapore, by PyCon SG in collaboration with the Python Asia Organization (PAO).",
       info: [
-        "2027 June (tentative)",
+        "June 2027 (tentative)",
         "Venue: TBA"
       ]
     },

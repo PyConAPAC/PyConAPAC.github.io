@@ -28,7 +28,7 @@ export default function Events() {
           <div className="col-lg-6 col-xs-12">
             <div className="left-text-content">
               <div className="section-heading">
-                <h1 id="events" className="text-white">Events</h1>
+                <h1 className="text-white">Events</h1>
                 <br />
                 <h4 className="text-white">Regional PyCon {currentYear} in Asia Schedule</h4>
                 <br />
