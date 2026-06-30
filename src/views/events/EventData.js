@@ -98,7 +98,7 @@ export const slides = [
       badgeType: 'success',
       description: "PythonAsia 2027 will be hosted in Singapore, by PyCon SG in collaboration with the Python Asia Organization (PAO).",
       info: [
-        "2026 June (tentative)",
+        "2027 June (tentative)",
         "Venue: TBA"
       ]
     },
