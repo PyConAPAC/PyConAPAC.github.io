@@ -11,28 +11,28 @@ export const events = [
     },
     {
         date: '9 May 2026',
-        title: 'PyCon Busan',
+        title: 'PyCon Busan 2026',
         location: 'Busan, South Korea',
         link: 'https://busan.pycon.kr/2026',
         countryCode: 'KR',
     },
     {
         date: '19-21 June 2026',
-        title: 'PyCon SG',
+        title: 'PyCon SG 2027',
         location: 'Singapore',
         link: 'https://pycon.sg',
         countryCode: 'SG',
     },
     {
         date: '15-17 August 2026',
-        title: 'PyCon KR',
+        title: 'PyCon KR 2027',
         location: 'South Korea',
         link: 'https://2026.pycon.kr',
         countryCode: 'KR',
     },
     {
         date: '21-23 August 2026',
-        title: 'PyCon JP',
+        title: 'PyCon JP 2027',
         location: 'Hiroshima, Japan',
         link: 'https://2026.pycon.jp',
         countryCode: 'JP',
@@ -46,21 +46,21 @@ export const events = [
     },
     {
         date: '8-9 August 2026',
-        title: 'PyCon ID',
+        title: 'PyCon ID 2026',
         location: 'Jakarta, Indonesia',
         link: 'https://temp.pycon.id',
         countryCode: 'ID',
     },
     {
         date: 'September 2026 (TBA)',
-        title: 'PyCon TW',
+        title: 'PyCon TW 2026',
         location: 'Taiwan',
         link: 'https://tw.pycon.org',
         countryCode: 'ID',
     },
     {
         date: '14-15 November 2026',
-        title: 'PyCon HK',
+        title: 'PyCon HK 2026',
         location: 'Hong Kong',
         link: 'https://www.pycon.hk',
         countryCode: 'HK',
@@ -93,13 +93,13 @@ export const slides = [
     {
       key: 1,
       img: 'images/event-slide-1.png',
-      title: 'PythonAsia 2026 ',
+      title: 'PythonAsia 2027 ',
       badgeText: 'FLAGSHIP REGIONAL EVENT',
       badgeType: 'success',
-      description: "PythonAsia 2026 will be proudly hosted in the Philippines, by PythonPH in collaboration with the Python Asia Organization (PAO). The same heart of PyCon APAC, now as PythonAsia.",
+      description: "PythonAsia 2027 will be hosted in Singapore, by PyCon SG in collaboration with the Python Asia Organization (PAO).",
       info: [
-        "2026 March 21-23",
-        "De La Salle University (DLSU), Malate, Metro Manila, Philippines"
+        "2026 June (tentative)",
+        "Venue: TBA"
       ]
     },
   ]
