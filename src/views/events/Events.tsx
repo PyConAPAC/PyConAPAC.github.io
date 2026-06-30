@@ -23,13 +23,14 @@ export default function Events() {
   return (
     <div className="events-container">
       <div className="container">
+
         <div className="row">
           <div className="col-lg-6 col-xs-12">
             <div className="left-text-content">
               <div className="section-heading">
                 <h1 className="text-white">Events</h1>
                 <br />
-                <h4 className="text-white">Regional PyCon {currentYear} in APAC Schedule</h4>
+                <h4 className="text-white">Regional PyCon {currentYear} in Asia Schedule</h4>
                 <br />
               </div>
               <div className="medium-text text-white">
@@ -52,33 +53,53 @@ export default function Events() {
                       </a>
                   ))}
                 </div>
-
-
               </div>
             </div>
           </div>
         </div>
+
         {upcomingEvents.length > 0 && (
+
           <div className="row">
             <div className="col-lg-6 col-xs-12">
               <div className="left-text-content">
-                <div className="section-heading">
-                  <br />
-                  <h4 className="text-white">Regional PyCon {currentYear+1} in APAC Schedule</h4>
-                  <br />
-                </div>
-                <div className="medium-text text-white" style={{opacity: '60%'}}>
-                  <ul>
-                    {upcomingEvents.map((event: any, index: number) => (
-                      <li key={index}>{event.date}:  <strong>{event.title}</strong> {event.location} {event.link && <a href={event.link}>🔗</a>}</li>
-                    ))}
-                  </ul>
+
+              <div className="section-heading">
+                <br />
+                <br />
+                <h4 className="text-white">Regional PyCon {currentYear+1} in Asia Schedule</h4>
+                <br />
+              </div>
+              <div className="medium-text text-white">
+                <div className="event-cards">
+                  {upcomingEvents.map((event, index) => (
+                      <a
+                        key={index}
+                        href={event.link}
+                        className="event-card"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <div className="event-date-card">{event.date}</div>
+                        <div className="event-details">
+                          <div className="event-title">
+                            {countryCodeToFlag(event.countryCode)} {event.title}
+                          </div>
+                          <div className="event-location">{event.location}</div>
+                        </div>
+                      </a>
+                  ))}
                 </div>
               </div>
+
+            </div>
+
             </div>
           </div>
+
         )}
       </div>
+
       <div className="events-slides-container mt-8">
         <div className="container">
           {slides.map((slide, index) => (
