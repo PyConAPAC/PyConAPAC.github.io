@@ -18,7 +18,7 @@ export default function About() {
               <strong>PyCon APAC</strong> was the <strong>regional</strong> counterpart of <strong><a href="https://pycon.org">PyCon</a> in Asia-Pacific</strong>. The very first PyCon APAC (Asia-Pacific) took place in Singapore in 2010. It is hosted in one (1) of the following countries every year: Singapore, Malaysia, Indonesia, Philippines, Thailand, South Korea, Hong Kong, Vietnam, Japan, Taiwan, India and Bangladesh.
               <br/>
               <br/>
-              Starting 2026, PyCon APAC takes on a new identity as PythonAsia, with the first edition hosted in the Philippines (<a href="https://2026.pythonasia.org">2026.pythonasia.org</a>). Each year, the conference rotates to a different host country, organized by the local Python community in collaboration with PAO. Other national and regional Python conferences across Asia continue to be called PyCon (e.g. PyCon Japan, PyCon Korea, PyCon Thailand); PythonAsia refers specifically to this conference, the regional counterpart of PyCon in Asia-Pacific.
+              Starting 2026, PyCon APAC takes on a new identity as <strong>PythonAsia</strong>, with the first edition hosted in the Philippines (<a href="https://2026.pythonasia.org">2026.pythonasia.org</a>). Each year, the conference rotates to a different host country, organized by the local Python community in collaboration with PAO. Other national and regional Python conferences across Asia continue to be called PyCon (e.g. PyCon Japan, PyCon Korea, PyCon Thailand); PythonAsia refers specifically to this conference, the regional counterpart of PyCon in Asia-Pacific.
             </div>
            </div>
         </div>
