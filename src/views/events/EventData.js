@@ -24,6 +24,13 @@ export const events = [
         countryCode: 'SG',
     },
     {
+        date: '8-9 August 2026',
+        title: 'PyCon ID 2026',
+        location: 'Jakarta, Indonesia',
+        link: 'https://temp.pycon.id',
+        countryCode: 'ID',
+    },
+    {
         date: '15-17 August 2026',
         title: 'PyCon KR 2026',
         location: 'South Korea',
@@ -43,13 +50,6 @@ export const events = [
         location: 'Brisbane, Australia',
         link: 'https://2026.pycon.org.au',
         countryCode: 'AU',
-    },
-    {
-        date: '8-9 August 2026',
-        title: 'PyCon ID 2026',
-        location: 'Jakarta, Indonesia',
-        link: 'https://temp.pycon.id',
-        countryCode: 'ID',
     },
     {
         date: '17-18 October',
