@@ -78,7 +78,7 @@ export const upcomingEvents = [
         countryCode: 'SG',
     },
     {
-        date: 'June 2027 (tentative)',
+        date: '18-19 June 2027',
         title: 'PyCon TH 2027',
         location: 'Thailand',
         link: 'https://th.pycon.org',
