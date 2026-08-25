@@ -59,6 +59,13 @@ export const events = [
         countryCode: 'TW',
     },
     {
+        date: '17-18 October 2026',
+        title: 'PyCon Davao 2026',
+        location: 'Davao, Philippines',
+        link: 'https://pycon-davao.durianpy.org',
+        countryCode: 'PH',
+    },
+    {
         date: '14-15 November 2026',
         title: 'PyCon HK 2026',
         location: 'Hong Kong',
