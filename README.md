@@ -12,7 +12,6 @@ Static website for `pycon.asia`, a community-maintained directory of Python conf
 ## Files
 
 ```text
-pythonasia-site-next/
 ├── index.html       Page structure and content
 ├── styles.css       Visual design and responsive layout
 ├── script.js        Event data, filtering, search, and mobile navigation
@@ -27,7 +26,7 @@ This is a plain HTML, CSS, and JavaScript site. It does not require a build step
 From the repository root, run:
 
 ```bash
-python3 -m http.server 8000 --directory pythonasia-site-next
+python3 -m http.server 8000
 ```
 
 Open [http://localhost:8000](http://localhost:8000) in a browser. A local HTTP server is recommended because it mirrors static hosting behavior more closely than opening `index.html` directly.
@@ -82,7 +81,7 @@ Do not edit or crop this artwork. The image contains the official PythonAsia 202
 
 1. Fork the repository on GitHub.
 2. Create a focused branch, for example `add-pycon-example-2027`.
-3. Make the change in `pythonasia-site-next`.
+3. Make the change.
 4. Preview the site locally and check desktop and mobile layouts.
 5. Confirm all external links point to official destinations.
 6. Commit and push the branch.
@@ -92,6 +91,6 @@ Keep pull requests small and avoid unrelated formatting or design changes.
 
 ## Deployment
 
-The repository currently contains an older React application alongside this static site. The root `CNAME` file identifies `pycon.asia` as the custom domain.
+The legacy React application is kept under `archive/legacy-react-site/` for reference and is not deployed. The root `CNAME` file identifies `pycon.asia` as the custom domain.
 
-The deployment workflow must be configured to serve the contents of `pythonasia-site-next` at the domain before this version becomes the production site. Until then, the folder can be previewed locally or hosted as a static directory.
+Pushes to `main` trigger `.github/workflows/deploy.yml`, which publishes the site to the `gh-pages` branch.
