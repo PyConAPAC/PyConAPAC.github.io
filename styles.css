@@ -124,6 +124,9 @@ h2 { font-size: clamp(2.45rem, 4.6vw, 4.2rem); letter-spacing: -.06em; line-heig
 .history-card p { color: var(--muted); font-size: 13px; margin: 0; }
 .history-card-current img { border: 2px solid var(--yellow); }
 .history-card-current .history-year { background: var(--plum); color: var(--yellow); }
+.directory-note { border-left: 3px solid var(--yellow); margin: -28px 0 42px; max-width: 720px; padding-left: 22px; }
+.directory-note h3 { font-size: 20px; margin-bottom: 6px; }
+.directory-note p { color: var(--muted); margin-bottom: 0; }
 .community-grid { display: grid; gap: 18px; grid-template-columns: repeat(3, 1fr); }
 .community-card { border: 1px solid var(--line); display: flex; flex-direction: column; min-height: 280px; padding: 26px; position: relative; transition: background .2s ease, transform .2s ease; }
 .community-card:hover { background: #fff; transform: translateY(-4px); }

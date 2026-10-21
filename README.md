@@ -1,10 +1,10 @@
 # pycon.asia
 
-Static website for [pycon.asia](https://pycon.asia), an open-source, community-maintained directory of Python conferences and events across Asia-Pacific.
+Static website for [pycon.asia](https://pycon.asia), an open-source, community-maintained directory of Python conferences and events across Asia.
 
 ## About PyCon Asia
 
-pycon.asia is a community-driven initiative collectively maintained by PyCon organizers across Asia-Pacific. It aims to make it easier for people to discover regional Python conferences and for organizers and community members to contribute event information and updates.
+pycon.asia is a community-driven initiative collectively maintained by PyCon organizers across Asia. It aims to make it easier for people to discover regional Python conferences and for organizers and community members to contribute event information and updates.
 
 ### How is this different from pythonasia.org?
 
@@ -12,7 +12,7 @@ pycon.asia is a community-driven initiative collectively maintained by PyCon org
 
 In contrast, **pycon.asia is an open-source community resource** maintained collectively by PyCon organizers across the region.
 
-Both websites serve complementary purposes: pythonasia.org represents PAO and its initiatives, while pycon.asia provides a shared directory of Python conferences and events across Asia-Pacific.
+Both websites serve complementary purposes: pythonasia.org represents PAO and its initiatives, while pycon.asia provides a shared directory of Python conferences and events across Asia.
 
 Anyone is welcome to contribute to pycon.asia by submitting pull requests to add or update event information.
 
