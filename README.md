@@ -19,7 +19,7 @@ Static website for `pycon.asia`, a community-maintained directory of Python conf
 └── README.md        Project and contribution guide
 ```
 
-This is a plain HTML, CSS, and JavaScript site. It does not require a build step or framework.
+The active site is a plain HTML, CSS, and JavaScript site at the repository root. It does not require a build step, package manager, or framework. The older React application is retained under `archive/legacy-react-site/` and is not part of the active deployment.
 
 ## Preview Locally
 
@@ -29,7 +29,7 @@ From the repository root, run:
 python3 -m http.server 8000
 ```
 
-Open [http://localhost:8000](http://localhost:8000) in a browser. A local HTTP server is recommended because it mirrors static hosting behavior more closely than opening `index.html` directly.
+Open [http://localhost:8000](http://localhost:8000) in a browser. Run the command from the repository root. A local HTTP server is recommended because it mirrors static hosting behavior more closely than opening `index.html` directly.
 
 ## Adding an Event
 
@@ -88,6 +88,10 @@ Do not edit or crop this artwork. The image contains the official PythonAsia 202
 7. Open a pull request with a short summary and the relevant official event link.
 
 Keep pull requests small and avoid unrelated formatting or design changes.
+
+## Maintainer
+
+- [@codemickeycode](https://github.com/codemickeycode)
 
 ## Deployment
 
