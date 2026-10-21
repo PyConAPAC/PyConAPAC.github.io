@@ -42,6 +42,7 @@ Edit the `events` array near the top of `script.js`:
   date: '12-14 Sep',
   title: 'PyCon Example 2027',
   location: 'Bangkok, Thailand',
+  countryCode: 'TH',
   type: 'national',
   link: 'https://example.org'
 }
@@ -54,6 +55,8 @@ Use these `type` values:
 - `local` for city or community-specific events
 
 The event will automatically appear in the directory, year filters, search results, and total event count.
+
+Use the two-letter ISO 3166-1 country code for `countryCode`. It is used to display the event's country flag, for example `TH` for Thailand, `JP` for Japan, and `SG` for Singapore.
 
 Before submitting an event, verify the date, name, location, event type, and official link with the event organizers.
 
