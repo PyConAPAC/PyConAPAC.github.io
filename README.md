@@ -1,82 +1,94 @@
-PyCon APAC Organizers Website
-==================
-PyCon APAC Organizers Website - is a platform where folks can conveniently access information about the Regional PyCons in APAC, all on a single page. This is a collaboration project between the some awesome folks from the APAC community. 
+# pycon.asia
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Static website for `pycon.asia`, a community-maintained directory of Python conferences and events across Asia-Pacific.
 
-Available Scripts
------
+## Terminology
 
-In the project directory, you can run:
+- **pycon.asia** is the event directory and community guide.
+- **PythonAsia** is the Asia-wide regional conference formerly known as PyCon APAC. It is co-organized by the host Python community and Python Asia Organization (PAO).
+- **PyCon <Country>** conferences remain national events, such as PyCon Japan, PyCon Korea, PyCon Thailand, and PyCon Singapore.
+- Local events such as PyCon Busan and PyCon Davao retain their local names.
 
-### `npm install`
-Installs the dependencies
-Run this if you just cloned this repo and it's your first time to work on it.
+## Files
 
-When you're inside a project directory that contains a `package.json` file, running npm install will install all the dependencies listed in that file. These dependencies are typically other Node.js packages that your project needs to run properly. The installed packages will be placed in a folder named `node_modules`.
-
-### `npm run start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run deploy`
-
-Deploys the build
-
-
-
-Contributing
------
-
-Pull requests are welcome! :)
-
-### How to Create/submit a Pull Request
-
-More info: https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/
-
-### Adding your PyCon to the website
-
-To add new events or edit existing ones on the website, please make the necessary
-changes in the event data and submit a pull request
-
-The event data is located at [EventData.js](src/views/events/EventData.js)
-
-The `EventData.js` file contains three arrays:
-
-1. **slides**: Highlights the incoming host for the upcoming PyCon APAC.
-2. **events**: Current year's PyCon events.
-3. **upcomingEvents**: Upcoming events for next year.
-
-To add an event, append a new object to either the events or eventsNextYear array.
-```javascript
-const events = [
-    {
-        date: '01-02 Jan',
-        name: 'PyCon APAC',
-        location: 'Asia Pacific (rotating)',
-        link: 'https://pycon.asia'
-    },
-]
+```text
+pythonasia-site-next/
+├── index.html       Page structure and content
+├── styles.css       Visual design and responsive layout
+├── script.js        Event data, filtering, search, and mobile navigation
+├── assets/          Images used by the static site
+└── README.md        Project and contribution guide
 ```
 
+This is a plain HTML, CSS, and JavaScript site. It does not require a build step or framework.
 
-### How to Test your Code Locally
+## Preview Locally
 
-1. Make code changes
-2. `npm run start` - to check your changes locally
+From the repository root, run:
 
+```bash
+python3 -m http.server 8000 --directory pythonasia-site-next
+```
 
+Open [http://localhost:8000](http://localhost:8000) in a browser. A local HTTP server is recommended because it mirrors static hosting behavior more closely than opening `index.html` directly.
+
+## Adding an Event
+
+Edit the `events` array near the top of `script.js`:
+
+```js
+{
+  year: 2027,
+  date: '12-14 Sep',
+  title: 'PyCon Example 2027',
+  location: 'Bangkok, Thailand',
+  type: 'national',
+  link: 'https://example.org'
+}
+```
+
+Use these `type` values:
+
+- `regional` for PythonAsia events
+- `national` for country-wide PyCon events
+- `local` for city or community-specific events
+
+The event will automatically appear in the directory, year filters, search results, and total event count.
+
+Before submitting an event, verify the date, name, location, event type, and official link with the event organizers.
+
+## Featured PythonAsia Event
+
+The featured PythonAsia 2027 section is in `index.html`. Its artwork is:
+
+```text
+assets/event-slide-1.png
+```
+
+Do not edit or crop this artwork. The image contains the official PythonAsia 2027 Singapore event messaging. Update the supporting text or link only when the official event information changes.
+
+## Image Guidance
+
+- Keep original event artwork unchanged when it contains official text or branding.
+- Use `object-fit: contain` for event artwork so important text is not cropped.
+- Use meaningful alt text for informative images.
+- Use `alt=""` for decorative collage images.
+- Add new assets to `assets/` and reference them with relative paths.
+
+## Pull Requests
+
+1. Fork the repository on GitHub.
+2. Create a focused branch, for example `add-pycon-example-2027`.
+3. Make the change in `pythonasia-site-next`.
+4. Preview the site locally and check desktop and mobile layouts.
+5. Confirm all external links point to official destinations.
+6. Commit and push the branch.
+7. Open a pull request with a short summary and the relevant official event link.
+
+Keep pull requests small and avoid unrelated formatting or design changes.
+
+## Deployment
+
+The repository currently contains an older React application alongside this static site. The root `CNAME` file identifies `pycon.asia` as the custom domain.
+
+The deployment workflow must be configured to serve the contents of `pythonasia-site-next` at the domain before this version becomes the production site. Until then, the folder can be previewed locally or hosted as a static directory.
