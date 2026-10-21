@@ -90,6 +90,10 @@ Do not edit or crop this artwork. The image contains the official PythonAsia 202
 
 Keep pull requests small and avoid unrelated formatting or design changes.
 
+## Maintainer
+
+- @codemickeycode
+
 ## Deployment
 
 The repository currently contains an older React application alongside this static site. The root `CNAME` file identifies `pycon.asia` as the custom domain.
