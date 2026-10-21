@@ -12,16 +12,11 @@ Static website for `pycon.asia`, a community-maintained directory of Python conf
 ## Files
 
 ```text
-├── index.html                    Page structure and content
-├── styles.css                    Visual design and responsive layout
-├── script.js                     Event data, filtering, search, and mobile navigation
-├── assets/                       Images used by the static site
-├── .github/workflows/deploy.yml  GitHub Pages deployment workflow
-├── CNAME                         Custom domain configuration
-├── LICENSE                       MIT license
-├── docs/                         Project reviews and documentation
-├── archive/legacy-react-site/    Archived React application
-└── README.md                     Project and contribution guide
+├── index.html       Page structure and content
+├── styles.css       Visual design and responsive layout
+├── script.js        Event data, filtering, search, and mobile navigation
+├── assets/          Images used by the static site
+└── README.md        Project and contribution guide
 ```
 
 The active site is a plain HTML, CSS, and JavaScript site at the repository root. It does not require a build step, package manager, or framework. The older React application is retained under `archive/legacy-react-site/` and is not part of the active deployment.
@@ -86,7 +81,7 @@ Do not edit or crop this artwork. The image contains the official PythonAsia 202
 
 1. Fork the repository on GitHub.
 2. Create a focused branch, for example `add-pycon-example-2027`.
-3. Make changes to the root static-site files: `index.html`, `styles.css`, `script.js`, or `assets/`.
+3. Make the change.
 4. Preview the site locally and check desktop and mobile layouts.
 5. Confirm all external links point to official destinations.
 6. Commit and push the branch.
@@ -100,6 +95,6 @@ Keep pull requests small and avoid unrelated formatting or design changes.
 
 ## Deployment
 
-GitHub Actions deploys the root static site to the `gh-pages` branch on every push to `main`. The workflow copies `index.html`, `styles.css`, `script.js`, `assets/`, and `CNAME` into the deployment directory. The root `CNAME` file configures `pycon.asia` as the custom domain.
+The legacy React application is kept under `archive/legacy-react-site/` for reference and is not deployed. The root `CNAME` file identifies `pycon.asia` as the custom domain.
 
-The archived React application is not deployed by this workflow.
+Pushes to `main` trigger `.github/workflows/deploy.yml`, which publishes the site to the `gh-pages` branch.
