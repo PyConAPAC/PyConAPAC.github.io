@@ -28,10 +28,7 @@ h1, h2, h3, p { margin-top: 0; }
 h1, h2, h3 { font-family: "Space Grotesk", sans-serif; }
 h1 { font-size: clamp(3.2rem, 6vw, 5.7rem); letter-spacing: -.07em; line-height: .98; margin-bottom: 28px; max-width: 650px; }
 h1 em, h2 em { color: var(--yellow); font-style: normal; }
-.hero-intro { color: rgba(255,255,255,.7); font-size: 18px; max-width: 500px; }
-.hero-context { color: rgba(255,255,255,.58); font-size: 14px; margin: 18px 0 0; max-width: 500px; }
-.hero-context a { color: #fff; font-weight: 600; text-underline-offset: 4px; }
-.hero-context a:hover, .hero-context a:focus-visible { color: var(--yellow); }
+.hero-context { color: rgba(255,255,255,.7); font-size: 18px; margin: 0; max-width: 620px; }
 .hero-actions { align-items: center; display: flex; gap: 28px; margin-top: 38px; }
 .button { align-items: center; border-radius: 999px; display: inline-flex; font-weight: 700; gap: 17px; justify-content: center; min-height: 48px; padding: 12px 21px; text-decoration: none; transition: transform .2s ease, background .2s ease; }
 .button:hover, .button:focus-visible { transform: translateY(-2px); }
